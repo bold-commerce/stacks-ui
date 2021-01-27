@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingSpinner LoadingSpinner renders with basic props 1`] = `
+<LoadingSpinner
+  className="the-class"
+  data-additional-prop="additional-prop"
+>
+  <span
+    className="stx-loading-spinner the-class"
+    data-additional-prop="additional-prop"
+  />
+</LoadingSpinner>
+`;

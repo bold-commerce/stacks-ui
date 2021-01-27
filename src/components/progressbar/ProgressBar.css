@@ -1,0 +1,39 @@
+.stx-progress-bar {
+    margin-bottom: 1rem;
+    min-height: 1.25rem;
+}
+
+.stx-progress-bar__container {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 0.5rem;
+    overflow: hidden;
+}
+
+.stx-progress-bar__fill {
+    background-color: #6B6B6B;
+    transition: width 200ms;
+    height: 100%;
+}
+
+.stx-progress-bar__prefix {
+}
+
+.stx-progress-bar__suffix {
+}
+
+.stx-progress-bar--small .stx-progress-bar__container {
+    font-size: 0.8750rem;
+    height: 0.25rem;
+}
+
+.stx-progress-bar--small .stx-progress-bar__progress {
+
+}
+
+.stx-progress-bar--large .bv-progress-bar__container {
+    height: 1rem;
+}
+
+.stx-progress-bar--large .bv-progress-bar__progress {
+
+}

@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Checkbox renders with additional props 1`] = `
+<Checkbox
+  className="the-class"
+  data-additional-prop="additional-prop-test"
+  name="name"
+  onChange={[Function]}
+  onClick={[Function]}
+  tabIndex="1"
+  value="value"
+>
+  <span
+    className="stx-checkbox the-class"
+  >
+    <input
+      className="stx-checkbox__input"
+      data-additional-prop="additional-prop-test"
+      name="name"
+      onChange={[Function]}
+      onClick={[Function]}
+      tabIndex="1"
+      type="checkbox"
+      value="value"
+    />
+    <span
+      className="stx-checkbox__mount"
+    />
+  </span>
+</Checkbox>
+`;
+
+exports[`Checkbox Checkbox renders with basic props 1`] = `
+<Checkbox
+  className="the-class"
+  name="name"
+  onChange={[Function]}
+  onClick={[Function]}
+  tabIndex="1"
+  value="value"
+>
+  <span
+    className="stx-checkbox the-class"
+  >
+    <input
+      className="stx-checkbox__input"
+      name="name"
+      onChange={[Function]}
+      onClick={[Function]}
+      tabIndex="1"
+      type="checkbox"
+      value="value"
+    />
+    <span
+      className="stx-checkbox__mount"
+    />
+  </span>
+</Checkbox>
+`;
+
+exports[`Checkbox Checkbox renders with checked 1`] = `
+<Checkbox
+  checked={true}
+  className="the-class"
+  name="name"
+  onChange={[Function]}
+  onClick={[Function]}
+  tabIndex="1"
+  value="value"
+>
+  <span
+    className="stx-checkbox stx-checkbox--is-checked the-class"
+  >
+    <input
+      checked={true}
+      className="stx-checkbox__input"
+      name="name"
+      onChange={[Function]}
+      onClick={[Function]}
+      tabIndex="1"
+      type="checkbox"
+      value="value"
+    />
+    <span
+      className="stx-checkbox__mount"
+    />
+  </span>
+</Checkbox>
+`;
+
+exports[`Checkbox Checkbox renders with disabled 1`] = `
+<Checkbox
+  className="the-class"
+  disabled={true}
+  name="name"
+  onChange={[Function]}
+  onClick={[Function]}
+  tabIndex="1"
+  value="value"
+>
+  <span
+    className="stx-checkbox stx-checkbox--is-disabled the-class"
+  >
+    <input
+      className="stx-checkbox__input"
+      disabled={true}
+      name="name"
+      onChange={[Function]}
+      onClick={[Function]}
+      tabIndex="1"
+      type="checkbox"
+      value="value"
+    />
+    <span
+      className="stx-checkbox__mount"
+    />
+  </span>
+</Checkbox>
+`;

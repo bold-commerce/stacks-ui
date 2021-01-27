@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioField RadioField render disabled when disabled is true 1`] = `
+<Field
+  className="stx-field--with-radio-field"
+  disabled={true}
+>
+  <div
+    className="stx-radio-field"
+  >
+    <Radio
+      className="stx-radio-field__radio"
+      disabled={true}
+      id="stxField2"
+    />
+    <label
+      className="stx-radio-field__label"
+      htmlFor="stxField2"
+    />
+  </div>
+</Field>
+`;
+
+exports[`RadioField RadioField renders with basic props 1`] = `
+<RadioField
+  checked={true}
+  className="the-class"
+  data-additional-prop="additional-prop"
+  disabled={true}
+  messageText="message"
+  messageType="alert"
+  name="name"
+  onChange={[Function]}
+  onClick={[Function]}
+  tabIndex="1"
+  value="value"
+>
+  <Field
+    className="stx-field--with-radio-field the-class"
+    disabled={true}
+    messageText="message"
+    messageType="alert"
+  >
+    <div
+      className="stx-field stx-field--alert stx-field--is-disabled stx-field--with-radio-field the-class"
+    >
+      <div
+        className="stx-radio-field"
+      >
+        <Radio
+          checked={true}
+          className="stx-radio-field__radio"
+          data-additional-prop="additional-prop"
+          disabled={true}
+          id="stxField1"
+          name="name"
+          onChange={[Function]}
+          onClick={[Function]}
+          tabIndex="1"
+          value="value"
+        >
+          <span
+            className="stx-radio stx-radio--is-disabled stx-radio--is-checked stx-radio-field__radio"
+          >
+            <input
+              aria-checked={true}
+              aria-disabled={true}
+              checked={true}
+              className="stx-radio__input"
+              data-additional-prop="additional-prop"
+              disabled={true}
+              id="stxField1"
+              name="name"
+              onChange={[Function]}
+              onClick={[Function]}
+              role="radio"
+              tabIndex="1"
+              type="radio"
+              value="value"
+            />
+            <span
+              className="stx-radio__box"
+            />
+          </span>
+        </Radio>
+        <label
+          className="stx-radio-field__label"
+          htmlFor="stxField1"
+        />
+      </div>
+      <div
+        className="stx-field__message"
+      >
+        message
+      </div>
+    </div>
+  </Field>
+</RadioField>
+`;

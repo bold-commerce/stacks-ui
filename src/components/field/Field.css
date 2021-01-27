@@ -1,0 +1,43 @@
+.stx-field {
+    position: relative;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.stx-field > :last-child {
+    margin-bottom: 0;
+}
+
+.stx-field:last-child {
+    margin-bottom: 0;
+}
+
+.stx-field__label {
+    margin-bottom: 0.25rem;
+}
+
+.stx-field__help-text {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    opacity: 0.5;
+}
+
+.stx-field__message-icon {
+    margin-right: 0.25rem;
+}
+
+.stx-field--alert .stx-field__message {
+    color: #FF1A2D;
+}
+
+.stx-field--warning .stx-field__message {
+    color: #FF9A0D;
+}
+
+.stx-field--success .stx-field__message {
+    color: #69F224;
+}
+
+.stx-field--is-disabled .stx-field__label {
+    color: rgba(0, 0, 0, 0.4);
+}

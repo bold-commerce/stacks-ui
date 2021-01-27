@@ -1,0 +1,137 @@
+.stx-button {
+    background-color: #fff;
+    border: 1px solid #6B6B6B;
+    color: #6B6B6B;
+    cursor: pointer;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 1.5rem;
+    max-width: 100%;
+    margin: 0 0.25rem;
+    overflow: hidden;
+    padding: 0.3125rem 0.75rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    transition: all 0.15s linear;
+}
+
+.stx-button:hover, .stx-button:focus, .stx-button--focus {
+    box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.1);
+    text-decoration: none;
+    z-index: 5;
+}
+
+.stx-button:focus {
+    outline: none;
+}
+
+.stx-button:disabled, .stx-button.stx-button--is-disabled {
+    cursor: not-allowed;
+    opacity: .8;
+    box-shadow: none;
+}
+
+.stx-button:disabled:hover, .stx-button:disabled:active, .stx-button:disabled:focus, .stx-button.stx-button--is-disabled:hover, .stx-button.stx-button--is-disabled:active, .stx-button.stx-button--is-disabled:focus {
+    box-shadow: none;
+}
+
+.stx-button__text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.stx-button__icon {
+    margin: 0 0.5rem;
+}
+
+.stx-button__icon--before {
+    margin-left: 0;
+}
+
+.stx-button__icon--after {
+    margin-right: 0;
+}
+
+.stx-button__spinner {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -0.825rem;
+    margin-left: -0.825rem;
+}
+
+.stx-button--block {
+    display: block;
+    width: 100%;
+}
+
+.stx-button--secondary {
+    background-color: transparent;
+    color: #6B6B6B;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.stx-button--secondary:hover, .stx-button--secondary:focus {
+    color: #6B6B6B;
+    border-color: transparent;
+}
+
+.stx-button--primary {
+    color: #fff;
+    background-color: #6B6B6B;
+}
+
+.stx-button--primary:hover, .stx-button--primary:focus {
+    color: #fff;
+    background-color: #6B6B6B;
+}
+
+.stx-button--small {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.stx-button--small .stx-button__icon--before {
+    margin-right: 0.25rem;
+}
+
+.stx-button--small .stx-button__icon--after {
+    margin-left: 0.25rem;
+}
+
+.stx-button--large {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.stx-button--is-loading > .stx-button__text {
+    opacity: 0;
+}
+
+.stx-button--is-loading > .stx-button__spinner {
+    display: block;
+}
+
+.stx-button--with-icon {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}

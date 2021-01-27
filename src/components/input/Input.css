@@ -1,0 +1,106 @@
+.stx-input {
+  background-color: #fff;
+  display: inline-flex;
+  align-items: center;
+  cursor: text;
+  vertical-align: middle;
+  box-shadow: 0px 0px 0px 1px #6B6B6B inset;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  transition: all 0.15s ease;
+  overflow: hidden;
+}
+
+.stx-input:hover {
+  box-shadow: 0px 0px 0px 1px #6B6B6B inset, 0px 1px 3px 0px rgba(0, 0, 0, 0.4) inset;
+}
+
+.stx-input__input-element {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  appearance: none;
+  display: block;
+  margin: 0;
+  padding: 0.375rem 0.75rem;
+  flex: 1 1 0%;
+  min-width: 1.5rem;
+  width: 100%;
+}
+.stx-input__input-element:focus {
+  outline: none;
+}
+
+.stx-input__prefix, .stx-input__suffix {
+  flex: 0 0 auto;
+  user-select: none;
+  opacity: 0.5;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+}
+
+.stx-input__prefix {
+  margin-left: 0.5rem;
+}
+
+.stx-input__suffix {
+  margin-right: 0.5rem;
+}
+
+.stx-input__spinner {
+  margin-right: 0.5rem;
+}
+
+.stx-input--has-focus, .stx-input--has-focus:hover {
+  border-color: transparent;
+  box-shadow: 0px 0px 0px 2px #6B6B6B inset;
+}
+
+.stx-input--is-disabled, .stx-input--is-disabled:hover {
+  cursor: not-allowed;
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.2) inset;
+  background-color: #F8F8F8;
+}
+
+.stx-input--is-disabled .stx-input__input-element,
+.stx-input--is-disabled .stx-input__prefix,
+.stx-input--is-disabled .stx-input__suffix,
+.stx-input--is-disabled:hover .stx-input__input-element,
+.stx-input--is-disabled:hover .stx-input__prefix,
+.stx-input--is-disabled:hover .stx-input__suffix {
+  cursor: not-allowed;
+  color: rgba(0,0,0,0.5);
+}
+
+.stx-input--is-read-only, .stx-input--is-read-only:hover, .stx-input--is-read-only:focus {
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.05) inset;
+}
+
+.stx-input--alert, .stx-input--alert:hover {
+  box-shadow: 0px 0px 0px 2px #FF1A2D inset;
+}
+
+.stx-input--warning, .stx-input--warning:hover {
+  box-shadow: 0px 0px 0px 2px #FF9A0D inset;
+}
+
+.stx-input--success, .stx-input--success:hover {
+  box-shadow: 0px 0px 0px 2px #69F224 inset;
+}
+
+.stx-input--success:hover, .stx-input--success:hover:hover {
+  box-shadow: 0px 0px 0px 2px #69F224 inset;
+}
+
+.stx-input--small > .stx-input__input-element {
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  padding: 0.25rem 0;
+}
+
+.stx-input--small > .stx-input__prefix, .stx-input--small > .stx-input__suffix {
+  font-size: 0.8125rem;
+}

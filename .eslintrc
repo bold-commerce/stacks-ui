@@ -1,0 +1,27 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["standard", "standard-react"],
+    "globals": {
+        "window": true,
+        "document": true,
+        "localStorage": true,
+        "fetch": false,
+        "top": true,
+        "URLSearchParams": true,
+        "expect": true,
+        "describe": true,
+        "test": true
+    },
+    "rules": {
+        "indent": ["error", 2, {"SwitchCase": 1}],
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+        "semi": ["error", "always"],
+        "space-before-function-paren": ["error", {"anonymous": "always", "named": "never", "asyncArrow": "always"}],
+        "comma-dangle": ["error", "always-multiline"],
+        "prefer-template": "error",
+        "camelcase": "off",
+        "react/jsx-indent" : ["error", 2],
+        "react/jsx-indent-props" : ["error", 2],
+        "generator-star-spacing": ["error", {"before": false, "after": true}]
+    }
+}

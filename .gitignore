@@ -1,0 +1,9 @@
+.idea/
+.idea/jsLibraryMappings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/stacks-ui.iml
+.idea/workspace.xml
+node_modules/
+yarn-error.log
+lib/

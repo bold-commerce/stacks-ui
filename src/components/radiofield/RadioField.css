@@ -1,0 +1,10 @@
+.stx-field--with-radio-field {
+  padding-left: 1.625rem;
+  margin-bottom: 0.5rem;
+}
+
+.stx-radio-field__radio {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WidgetFrame WidgetFrame renders other props 1`] = `
+<WidgetFrame
+  className="the-class"
+  data-other-prop="other prop value"
+  scoped={true}
+>
+  <div
+    className="stx-widget-frame stx-widget-frame--scoped the-class"
+    data-other-prop="other prop value"
+  >
+    <div>
+      Hello world!
+    </div>
+  </div>
+</WidgetFrame>
+`;
+
+exports[`WidgetFrame WidgetFrame renders with basic props 1`] = `
+<WidgetFrame
+  className="the-class"
+>
+  <div
+    className="stx-widget-frame the-class"
+  >
+    <div>
+      Hello world!
+    </div>
+  </div>
+</WidgetFrame>
+`;
+
+exports[`WidgetFrame WidgetFrame renders with scoped prop 1`] = `
+<WidgetFrame
+  className="the-class"
+  scoped={true}
+>
+  <div
+    className="stx-widget-frame stx-widget-frame--scoped the-class"
+  >
+    <div>
+      Hello world!
+    </div>
+  </div>
+</WidgetFrame>
+`;

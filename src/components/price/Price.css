@@ -1,0 +1,26 @@
+.stx-price__amount {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    color: #333333;
+}
+
+.stx-price__amount--inactive {
+    font-size: .875rem;
+    line-height: .875rem;
+    margin-bottom: 0.25rem;
+    text-decoration: line-through;
+    color: #B3B3B3;
+}
+
+.stx-price--alight-left {
+    text-align: left;
+}
+
+.stx-price--alight-center {
+    text-align: center;
+}
+
+.stx-price--alight-right {
+    text-align: right;
+}

@@ -1,0 +1,438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Input render disabled when disabled is true 1`] = `
+<div
+  className="stx-input stx-input--is-disabled"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    aria-disabled={true}
+    className="stx-input__input-element"
+    disabled={true}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input render readOnly when readOnly is true 1`] = `
+<div
+  className="stx-input stx-input--is-read-only"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    aria-readonly={true}
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    readOnly={true}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input render with a loading spinner when loading is true 1`] = `
+<div
+  className="stx-input stx-input--is-loading"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+  <LoadingSpinner
+    className="stx-input__spinner"
+  />
+</div>
+`;
+
+exports[`Input Input renders with a autoComplete value 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    autoComplete="off"
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input renders with a message type of alert 1`] = `
+<div
+  className="stx-input stx-input--alert"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input renders with a message type of success 1`] = `
+<div
+  className="stx-input stx-input--success"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input renders with a message type of warning 1`] = `
+<div
+  className="stx-input stx-input--warning"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input renders with a min and max length 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    maxLength={5}
+    minLength={1}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input renders with a min and max value 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    max={5}
+    min={1}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input renders with a prefix 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <div
+    className="stx-input__prefix"
+  >
+    -
+  </div>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input renders with a step value 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    step={5}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input renders with a suffix 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+  <div
+    className="stx-input__suffix"
+  >
+    px
+  </div>
+</div>
+`;
+
+exports[`Input Input renders with a tabIndex value 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    tabIndex={-5}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input renders with basic props 1`] = `
+<div
+  className="stx-input html-class"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    data-additional-prop="additional-prop-test"
+    id="test-id"
+    name="name"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    placeholder="placeholder"
+    type="text"
+    value="test-string"
+  />
+</div>
+`;
+
+exports[`Input Input renders with size small 1`] = `
+<div
+  className="stx-input stx-input--small"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input renders with type date 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="date"
+  />
+</div>
+`;
+
+exports[`Input Input renders with type datetime-local 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="datetime-local"
+  />
+</div>
+`;
+
+exports[`Input Input renders with type email 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="email"
+  />
+</div>
+`;
+
+exports[`Input Input renders with type file 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="file"
+  />
+</div>
+`;
+
+exports[`Input Input renders with type number 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="number"
+  />
+</div>
+`;
+
+exports[`Input Input renders with type password 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="password"
+  />
+</div>
+`;
+
+exports[`Input Input renders with type search 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="search"
+  />
+</div>
+`;
+
+exports[`Input Input renders with type tel 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="tel"
+  />
+</div>
+`;
+
+exports[`Input Input renders with type text 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input Input renders with type time 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="time"
+  />
+</div>
+`;
+
+exports[`Input Input renders with type url 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="url"
+  />
+</div>
+`;
+
+exports[`Input Input renders without any props 1`] = `
+<div
+  className="stx-input"
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+>
+  <input
+    className="stx-input__input-element"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;

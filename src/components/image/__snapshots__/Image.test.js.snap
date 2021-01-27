@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image Image renders with a message 1`] = `
+<Image
+  alt="no-name-provided"
+  className="the-class"
+  message="Added"
+  src="https://animage.jpg"
+>
+  <div
+    className="stx-image the-class"
+  >
+    <div
+      className="stx-image--content"
+    >
+      <div
+        className="stx-image--holder"
+      >
+        <img
+          alt="no-name-provided"
+          className="stx-image--image"
+          src="https://animage.jpg"
+        />
+      </div>
+      <div
+        className="stx-image--message"
+      >
+        Added
+      </div>
+    </div>
+  </div>
+</Image>
+`;
+
+exports[`Image Image renders with basic props 1`] = `
+<Image
+  alt="no-name-provided"
+  className="the-class"
+  src="https://animage.jpg"
+>
+  <div
+    className="stx-image the-class"
+  >
+    <div
+      className="stx-image--content"
+    >
+      <div
+        className="stx-image--holder"
+      >
+        <img
+          alt="no-name-provided"
+          className="stx-image--image"
+          src="https://animage.jpg"
+        />
+      </div>
+    </div>
+  </div>
+</Image>
+`;
+
+exports[`Image Image renders with custom/accessibility properties 1`] = `
+<Image
+  alt="no-name-provided"
+  aria-label="Complementary information"
+  className="the-class"
+  data-additional-prop="additional-prop"
+  message="Added"
+  src="https://animage.jpg"
+>
+  <div
+    className="stx-image the-class"
+  >
+    <div
+      className="stx-image--content"
+    >
+      <div
+        className="stx-image--holder"
+      >
+        <img
+          alt="no-name-provided"
+          aria-label="Complementary information"
+          className="stx-image--image"
+          data-additional-prop="additional-prop"
+          src="https://animage.jpg"
+        />
+      </div>
+      <div
+        className="stx-image--message"
+      >
+        Added
+      </div>
+    </div>
+  </div>
+</Image>
+`;

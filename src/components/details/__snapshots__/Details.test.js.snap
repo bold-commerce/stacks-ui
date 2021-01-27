@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details Details renders with basic props 1`] = `
+<Details
+  className="the-class"
+  description="The description in the widget"
+  textAlign="left"
+  title="The widget title"
+>
+  <div
+    className="stx-details the-class stx-details--left"
+  >
+    <div
+      className="stx-details__title"
+    >
+      The widget title
+    </div>
+    <div
+      className="stx-details__description"
+    >
+      The description in the widget
+    </div>
+  </div>
+</Details>
+`;
+
+exports[`Details Details renders with text align center 1`] = `
+<Details
+  className="the-class"
+  description="The description in the widget"
+  textAlign="center"
+  title="The widget title"
+>
+  <div
+    className="stx-details the-class stx-details--center"
+  >
+    <div
+      className="stx-details__title"
+    >
+      The widget title
+    </div>
+    <div
+      className="stx-details__description"
+    >
+      The description in the widget
+    </div>
+  </div>
+</Details>
+`;
+
+exports[`Details Details renders with text align right 1`] = `
+<Details
+  className="the-class"
+  description="The description in the widget"
+  textAlign="right"
+  title="The widget title"
+>
+  <div
+    className="stx-details the-class stx-details--right"
+  >
+    <div
+      className="stx-details__title"
+    >
+      The widget title
+    </div>
+    <div
+      className="stx-details__description"
+    >
+      The description in the widget
+    </div>
+  </div>
+</Details>
+`;

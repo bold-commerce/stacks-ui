@@ -1,0 +1,19 @@
+.stx-widget-frame--scoped h1,
+.stx-widget-frame--scoped h2,
+.stx-widget-frame--scoped h3,
+.stx-widget-frame--scoped h4,
+.stx-widget-frame--scoped h5,
+.stx-widget-frame--scoped h6,
+.stx-widget-frame--scoped p {
+  margin: 0 0 0.5rem;
+}
+
+.stx-widget-frame--scoped h1:last-child,
+.stx-widget-frame--scoped h2:last-child,
+.stx-widget-frame--scoped h3:last-child,
+.stx-widget-frame--scoped h4:last-child,
+.stx-widget-frame--scoped h5:last-child,
+.stx-widget-frame--scoped h6:last-child,
+.stx-widget-frame--scoped p:last-child {
+  margin-bottom: 0;
+}

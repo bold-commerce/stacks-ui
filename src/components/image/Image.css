@@ -1,0 +1,44 @@
+.stx-image {
+    border: solid #6B6B6B 1px;
+    position: relative;
+}
+
+.stx-image:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.stx-image--content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.stx-image--holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.stx-image--image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.stx-image--message {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #6B6B6B;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: .97;
+}

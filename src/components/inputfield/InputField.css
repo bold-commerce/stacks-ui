@@ -1,0 +1,5 @@
+.stx-field--with-input .stx-input {
+  display: flex;
+  margin-bottom: 0.25rem;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+.stx-details {
+}
+
+.stx-details--left {
+    text-align: left;
+}
+
+.stx-details--center {
+    text-align: center;
+}
+
+.stx-details--right {
+    text-align: right;
+}
+
+.stx-details__title {
+    font-size: 1.1250rem;
+}
+
+.stx-details__description {
+    margin-top: 5px;
+}

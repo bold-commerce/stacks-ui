@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Field Field render disabled when disabled is true 1`] = `
+<div
+  className="stx-field stx-field--is-disabled"
+/>
+`;
+
+exports[`Field Field renders with basic props 1`] = `
+<Field
+  className="the-class"
+  data-additional-prop="additional-prop"
+  helpText="Some help text"
+  messageText="Some message text"
+  messageType="alert"
+>
+  <div
+    className="stx-field stx-field--alert the-class"
+    data-additional-prop="additional-prop"
+  >
+    <div>
+      There are children
+    </div>
+    <div
+      className="stx-field__message"
+    >
+      Some message text
+    </div>
+    <div
+      className="stx-field__help-text"
+    >
+      Some help text
+    </div>
+  </div>
+</Field>
+`;

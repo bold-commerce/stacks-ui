@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxField CheckboxField render additional props 1`] = `
+<Field
+  className="stx-checkbox-field__field"
+>
+  <div
+    className="stx-checkbox-field__div"
+  >
+    <Checkbox
+      className="stx-checkbox-field__checkbox"
+      data-additional-prop="additional-prop"
+      id="stxField9"
+    />
+    <label
+      className="stx-checkbox-field__label"
+      htmlFor="stxField9"
+    />
+  </div>
+</Field>
+`;
+
+exports[`CheckboxField CheckboxField render disabled when disabled is true 1`] = `
+<Field
+  className="stx-checkbox-field__field"
+>
+  <div
+    className="stx-checkbox-field__div"
+  >
+    <Checkbox
+      className="stx-checkbox-field__checkbox"
+      disabled={true}
+      id="stxField8"
+    />
+    <label
+      className="stx-checkbox-field__label"
+      htmlFor="stxField8"
+    />
+  </div>
+</Field>
+`;
+
+exports[`CheckboxField CheckboxField renders checked 1`] = `
+<Field
+  className="stx-checkbox-field__field"
+>
+  <div
+    className="stx-checkbox-field__div"
+  >
+    <Checkbox
+      checked={true}
+      className="stx-checkbox-field__checkbox"
+      id="stxField3"
+    />
+    <label
+      className="stx-checkbox-field__label"
+      htmlFor="stxField3"
+    />
+  </div>
+</Field>
+`;
+
+exports[`CheckboxField CheckboxField renders with a success messageText 1`] = `
+<Field
+  className="stx-checkbox-field__field"
+  messageText="message-text"
+  messageType="success"
+>
+  <div
+    className="stx-checkbox-field__div"
+  >
+    <Checkbox
+      className="stx-checkbox-field__checkbox"
+      id="stxField5"
+    />
+    <label
+      className="stx-checkbox-field__label"
+      htmlFor="stxField5"
+    />
+  </div>
+</Field>
+`;
+
+exports[`CheckboxField CheckboxField renders with a warning messageText 1`] = `
+<Field
+  className="stx-checkbox-field__field"
+  messageText="message-text"
+  messageType="warning"
+>
+  <div
+    className="stx-checkbox-field__div"
+  >
+    <Checkbox
+      className="stx-checkbox-field__checkbox"
+      id="stxField6"
+    />
+    <label
+      className="stx-checkbox-field__label"
+      htmlFor="stxField6"
+    />
+  </div>
+</Field>
+`;
+
+exports[`CheckboxField CheckboxField renders with an alert messageText 1`] = `
+<Field
+  className="stx-checkbox-field__field"
+  messageText="message-text"
+  messageType="alert"
+>
+  <div
+    className="stx-checkbox-field__div"
+  >
+    <Checkbox
+      className="stx-checkbox-field__checkbox"
+      id="stxField7"
+    />
+    <label
+      className="stx-checkbox-field__label"
+      htmlFor="stxField7"
+    />
+  </div>
+</Field>
+`;
+
+exports[`CheckboxField CheckboxField renders with basic props 1`] = `
+<Field
+  className="stx-checkbox-field__field html-class"
+>
+  <div
+    className="stx-checkbox-field__div"
+  >
+    <Checkbox
+      className="stx-checkbox-field__checkbox"
+      id="test-id"
+      name="name"
+      onChange={[Function]}
+      onClick={[Function]}
+      value="test-string"
+    />
+    <label
+      className="stx-checkbox-field__label"
+      htmlFor="test-id"
+    >
+      checkboxfield-label
+    </label>
+  </div>
+</Field>
+`;
+
+exports[`CheckboxField CheckboxField renders with helpText 1`] = `
+<Field
+  className="stx-checkbox-field__field"
+  helpText="help-text"
+>
+  <div
+    className="stx-checkbox-field__div"
+  >
+    <Checkbox
+      className="stx-checkbox-field__checkbox"
+      id="stxField4"
+    />
+    <label
+      className="stx-checkbox-field__label"
+      htmlFor="stxField4"
+    />
+  </div>
+</Field>
+`;
+
+exports[`CheckboxField CheckboxField renders without any props 1`] = `
+<Field
+  className="stx-checkbox-field__field"
+>
+  <div
+    className="stx-checkbox-field__div"
+  >
+    <Checkbox
+      className="stx-checkbox-field__checkbox"
+      id="stxField2"
+    />
+    <label
+      className="stx-checkbox-field__label"
+      htmlFor="stxField2"
+    />
+  </div>
+</Field>
+`;

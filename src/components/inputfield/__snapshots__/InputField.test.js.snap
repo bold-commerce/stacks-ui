@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField InputField render disabled when disabled is true 1`] = `
+<Field
+  className="stx-field--with-input"
+  disabled={true}
+  htmlFor="stxField25"
+>
+  <Input
+    disabled={true}
+    id="stxField25"
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField render readOnly when readOnly is true 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField26"
+  readOnly={true}
+>
+  <Input
+    id="stxField26"
+    readOnly={true}
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField render with a loading spinner when loading is true 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField27"
+>
+  <Input
+    id="stxField27"
+    loading={true}
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with a autoComplete value 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField24"
+>
+  <Input
+    autoComplete="off"
+    id="stxField24"
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with a message type of alert 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField17"
+  messageType="alert"
+>
+  <Input
+    id="stxField17"
+    messageType="alert"
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with a message type of success 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField19"
+  messageType="success"
+>
+  <Input
+    id="stxField19"
+    messageType="success"
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with a message type of warning 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField18"
+  messageType="warning"
+>
+  <Input
+    id="stxField18"
+    messageType="warning"
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with a min and max length 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField21"
+>
+  <Input
+    id="stxField21"
+    maxLength={5}
+    minLength={1}
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with a min and max value 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField20"
+>
+  <Input
+    id="stxField20"
+    max={5}
+    min={1}
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with a prefix 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField3"
+>
+  <Input
+    id="stxField3"
+    prefix="-"
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with a step value 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField22"
+>
+  <Input
+    id="stxField22"
+    selectOnFocus={false}
+    step={5}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with a suffix 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField4"
+>
+  <Input
+    id="stxField4"
+    selectOnFocus={false}
+    suffix="px"
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with a tabIndex value 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField23"
+>
+  <Input
+    id="stxField23"
+    selectOnFocus={false}
+    tabIndex={-5}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with basic props 1`] = `
+<Field
+  className="stx-field--with-input html-class"
+  htmlFor="test-id"
+>
+  <Input
+    data-additional-prop="additional-prop-test"
+    id="test-id"
+    name="name"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    placeholder="placeholder"
+    selectOnFocus={true}
+    type="text"
+    value="test-string"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with size small 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField16"
+>
+  <Input
+    id="stxField16"
+    selectOnFocus={false}
+    size="small"
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with type date 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField6"
+>
+  <Input
+    id="stxField6"
+    selectOnFocus={false}
+    type="date"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with type datetime-local 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField7"
+>
+  <Input
+    id="stxField7"
+    selectOnFocus={false}
+    type="datetime-local"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with type email 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField12"
+>
+  <Input
+    id="stxField12"
+    selectOnFocus={false}
+    type="email"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with type file 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField15"
+>
+  <Input
+    id="stxField15"
+    selectOnFocus={false}
+    type="file"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with type number 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField10"
+>
+  <Input
+    id="stxField10"
+    selectOnFocus={false}
+    type="number"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with type password 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField14"
+>
+  <Input
+    id="stxField14"
+    selectOnFocus={false}
+    type="password"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with type search 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField9"
+>
+  <Input
+    id="stxField9"
+    selectOnFocus={false}
+    type="search"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with type tel 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField11"
+>
+  <Input
+    id="stxField11"
+    selectOnFocus={false}
+    type="tel"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with type text 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField5"
+>
+  <Input
+    id="stxField5"
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with type time 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField8"
+>
+  <Input
+    id="stxField8"
+    selectOnFocus={false}
+    type="time"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders with type url 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField13"
+>
+  <Input
+    id="stxField13"
+    selectOnFocus={false}
+    type="url"
+  />
+</Field>
+`;
+
+exports[`InputField InputField renders without any props 1`] = `
+<Field
+  className="stx-field--with-input"
+  htmlFor="stxField2"
+>
+  <Input
+    id="stxField2"
+    selectOnFocus={false}
+    type="text"
+  />
+</Field>
+`;

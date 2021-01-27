@@ -1,0 +1,10 @@
+.stx-checkbox-field__field {
+  padding-left: 1.625rem;
+  margin-bottom: 0.5rem;
+}
+
+.stx-checkbox-field__checkbox {
+  position: absolute;
+  left: 0;
+  top: 2px;
+}

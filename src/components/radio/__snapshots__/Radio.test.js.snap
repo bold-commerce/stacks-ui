@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio Radio renders with additional props 1`] = `
+<Radio
+  className="the-class"
+  data-additional-prop="additional-prop"
+  name="name"
+  onChange={[Function]}
+  onClick={[Function]}
+  tabIndex="1"
+  value="value"
+>
+  <span
+    className="stx-radio the-class"
+  >
+    <input
+      className="stx-radio__input"
+      data-additional-prop="additional-prop"
+      name="name"
+      onChange={[Function]}
+      onClick={[Function]}
+      role="radio"
+      tabIndex="1"
+      type="radio"
+      value="value"
+    />
+    <span
+      className="stx-radio__box"
+    />
+  </span>
+</Radio>
+`;
+
+exports[`Radio Radio renders with basic props 1`] = `
+<Radio
+  className="the-class"
+  name="name"
+  onChange={[Function]}
+  onClick={[Function]}
+  tabIndex="1"
+  value="value"
+>
+  <span
+    className="stx-radio the-class"
+  >
+    <input
+      className="stx-radio__input"
+      name="name"
+      onChange={[Function]}
+      onClick={[Function]}
+      role="radio"
+      tabIndex="1"
+      type="radio"
+      value="value"
+    />
+    <span
+      className="stx-radio__box"
+    />
+  </span>
+</Radio>
+`;
+
+exports[`Radio Radio renders with checked 1`] = `
+<Radio
+  checked={true}
+  className="the-class"
+  name="name"
+  onChange={[Function]}
+  onClick={[Function]}
+  tabIndex="1"
+  value="value"
+>
+  <span
+    className="stx-radio stx-radio--is-checked the-class"
+  >
+    <input
+      aria-checked={true}
+      checked={true}
+      className="stx-radio__input"
+      name="name"
+      onChange={[Function]}
+      onClick={[Function]}
+      role="radio"
+      tabIndex="1"
+      type="radio"
+      value="value"
+    />
+    <span
+      className="stx-radio__box"
+    />
+  </span>
+</Radio>
+`;
+
+exports[`Radio Radio renders with disabled 1`] = `
+<Radio
+  className="the-class"
+  disabled={true}
+  name="name"
+  onChange={[Function]}
+  onClick={[Function]}
+  tabIndex="1"
+  value="value"
+>
+  <span
+    className="stx-radio stx-radio--is-disabled the-class"
+  >
+    <input
+      aria-disabled={true}
+      className="stx-radio__input"
+      disabled={true}
+      name="name"
+      onChange={[Function]}
+      onClick={[Function]}
+      role="radio"
+      tabIndex="1"
+      type="radio"
+      value="value"
+    />
+    <span
+      className="stx-radio__box"
+    />
+  </span>
+</Radio>
+`;
+
+exports[`Radio Radio renders with messageType = alert 1`] = `
+<Radio
+  className="the-class"
+  messageType="alert"
+  name="name"
+  onChange={[Function]}
+  onClick={[Function]}
+  tabIndex="1"
+  value="value"
+>
+  <span
+    className="stx-radio stx-radio--alert the-class"
+  >
+    <input
+      className="stx-radio__input"
+      name="name"
+      onChange={[Function]}
+      onClick={[Function]}
+      role="radio"
+      tabIndex="1"
+      type="radio"
+      value="value"
+    />
+    <span
+      className="stx-radio__box"
+    />
+  </span>
+</Radio>
+`;

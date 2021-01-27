@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message Message renders additional data props 1`] = `
+<Message
+  className="the-class"
+  data-additional-prop="additional-prop"
+  id="the-id"
+>
+  <div
+    className="stx-message the-class"
+    data-additional-prop="additional-prop"
+    id="the-id"
+    role="status"
+  >
+    Hello World
+  </div>
+</Message>
+`;
+
+exports[`Message Message renders with basic props 1`] = `
+<Message
+  className="the-class"
+  id="the-id"
+>
+  <div
+    className="stx-message the-class"
+    id="the-id"
+    role="status"
+  >
+    Hello World
+  </div>
+</Message>
+`;
+
+exports[`Message Message renders with dismiss button 1`] = `
+<Message
+  className="the-class"
+  dismissible={true}
+  id="the-id"
+  onDismiss={[Function]}
+>
+  <div
+    className="stx-message the-class"
+    id="the-id"
+    role="status"
+  >
+    <Button
+      block={false}
+      className="stx-message__dismiss-button"
+      disabled={false}
+      href={null}
+      loading={false}
+      onClick={[Function]}
+      primary={false}
+      secondary={true}
+      size={null}
+      target={null}
+      title={null}
+      type={null}
+    >
+      <button
+        aria-busy={false}
+        aria-disabled={false}
+        className="stx-button stx-button--secondary stx-message__dismiss-button"
+        disabled={false}
+        href={null}
+        onClick={[Function]}
+        target={null}
+        title={null}
+      >
+        <span
+          className="stx-button__text"
+        >
+          Dismiss
+        </span>
+        <LoadingSpinner
+          className="stx-button__spinner"
+        >
+          <span
+            className="stx-loading-spinner stx-button__spinner"
+          />
+        </LoadingSpinner>
+      </button>
+    </Button>
+    Hello World
+  </div>
+</Message>
+`;
+
+exports[`Message Message renders with title 1`] = `
+<Message
+  className="the-class"
+  id="the-id"
+  title="title"
+>
+  <div
+    className="stx-message the-class"
+    id="the-id"
+    role="status"
+  >
+    <h2
+      className="stx-message__title"
+    >
+      title
+    </h2>
+    Hello World
+  </div>
+</Message>
+`;
+
+exports[`Message Message renders with type = alert 1`] = `
+<Message
+  className="the-class"
+  id="the-id"
+  type="alert"
+>
+  <div
+    className="stx-message stx-message--with-alert the-class"
+    id="the-id"
+    role="alert"
+  >
+    Hello World
+  </div>
+</Message>
+`;
+
+exports[`Message Message renders with type = info 1`] = `
+<Message
+  className="the-class"
+  id="the-id"
+  type="info"
+>
+  <div
+    className="stx-message stx-message--with-info the-class"
+    id="the-id"
+    role="status"
+  >
+    Hello World
+  </div>
+</Message>
+`;
+
+exports[`Message Message renders with type = success 1`] = `
+<Message
+  className="the-class"
+  id="the-id"
+  type="success"
+>
+  <div
+    className="stx-message stx-message--with-success the-class"
+    id="the-id"
+    role="status"
+  >
+    Hello World
+  </div>
+</Message>
+`;
+
+exports[`Message Message renders with type = warning 1`] = `
+<Message
+  className="the-class"
+  id="the-id"
+  type="warning"
+>
+  <div
+    className="stx-message stx-message--with-warning the-class"
+    id="the-id"
+    role="status"
+  >
+    Hello World
+  </div>
+</Message>
+`;

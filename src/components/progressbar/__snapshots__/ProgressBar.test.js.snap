@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar ProgressBar renders with basic props 1`] = `
+<ProgressBar
+  className="the-class"
+  percentCompleted={33}
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow={33}
+    className="stx-progress-bar the-class"
+    role="progressbar"
+  >
+    <div
+      className="stx-progress-bar__prefix"
+    />
+    <div
+      className="stx-progress-bar__container"
+    >
+      <div
+        className="stx-progress-bar__fill"
+        style={
+          Object {
+            "width": "33%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="stx-progress-bar__suffix"
+    />
+  </div>
+</ProgressBar>
+`;
+
+exports[`ProgressBar ProgressBar renders with render after 1`] = `
+<ProgressBar
+  className="the-class"
+  percentCompleted={33}
+  suffix={
+    <React.Fragment>
+      The render before content
+    </React.Fragment>
+  }
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow={33}
+    className="stx-progress-bar the-class"
+    role="progressbar"
+  >
+    <div
+      className="stx-progress-bar__prefix"
+    />
+    <div
+      className="stx-progress-bar__container"
+    >
+      <div
+        className="stx-progress-bar__fill"
+        style={
+          Object {
+            "width": "33%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="stx-progress-bar__suffix"
+    >
+      The render before content
+    </div>
+  </div>
+</ProgressBar>
+`;
+
+exports[`ProgressBar ProgressBar renders with render before 1`] = `
+<ProgressBar
+  className="the-class"
+  percentCompleted={33}
+  prefix={
+    <React.Fragment>
+      The render before content
+    </React.Fragment>
+  }
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow={33}
+    className="stx-progress-bar the-class"
+    role="progressbar"
+  >
+    <div
+      className="stx-progress-bar__prefix"
+    >
+      The render before content
+    </div>
+    <div
+      className="stx-progress-bar__container"
+    >
+      <div
+        className="stx-progress-bar__fill"
+        style={
+          Object {
+            "width": "33%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="stx-progress-bar__suffix"
+    />
+  </div>
+</ProgressBar>
+`;

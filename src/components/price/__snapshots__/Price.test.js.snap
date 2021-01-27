@@ -1,0 +1,524 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Price Price not renders with null amount 1`] = `
+<Price
+  amount={null}
+  amountBeforeDiscount={977}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString={null}
+  textAlign="center"
+/>
+`;
+
+exports[`Price Price renders with basic props 1`] = `
+<Price
+  amount={1222}
+  amountBeforeDiscount={977}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString={null}
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Price before discount"
+      className="stx-price__amount stx-price__amount--inactive"
+    >
+      $9.77
+    </p>
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      $12.22
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with customized/accessibility props 1`] = `
+<Price
+  amount={1222}
+  amountBeforeDiscount={977}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  aria-label="product-price"
+  className="the-class"
+  data-additional-prop="additional-prop"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString={null}
+  textAlign="center"
+>
+  <div
+    aria-label="product-price"
+    className="stx-price the-class stx-price--alight-center"
+    data-additional-prop="additional-prop"
+  >
+    <p
+      aria-label="Price before discount"
+      className="stx-price__amount stx-price__amount--inactive"
+    >
+      $9.77
+    </p>
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      $12.22
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with formatString and apostrophe separator 1`] = `
+<Price
+  amount={149999}
+  amountBeforeDiscount={175000}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString="\${{amount_with_apostrophe_separator}}"
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Price before discount"
+      className="stx-price__amount stx-price__amount--inactive"
+    >
+      $1'750.00
+    </p>
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      $1'499.99
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with formatString and basic props 1`] = `
+<Price
+  amount={1222}
+  amountBeforeDiscount={977}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString="\${{amount}}"
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Price before discount"
+      className="stx-price__amount stx-price__amount--inactive"
+    >
+      $9.77
+    </p>
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      $12.22
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with formatString and customized currency 1`] = `
+<Price
+  amount={149999}
+  amountBeforeDiscount={175000}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString="US\${{amount}}"
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Price before discount"
+      className="stx-price__amount stx-price__amount--inactive"
+    >
+      US$1,750.00
+    </p>
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      US$1,499.99
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with formatString and customized currency/separators 1`] = `
+<Price
+  amount={149999}
+  amountBeforeDiscount={175000}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString="€{{amount_with_comma_separator}}"
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Price before discount"
+      className="stx-price__amount stx-price__amount--inactive"
+    >
+      €1.750,00
+    </p>
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      €1.499,99
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with formatString and no cents + dot as thousands separator 1`] = `
+<Price
+  amount={149999}
+  amountBeforeDiscount={175000}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString="€{{amount_no_decimals_with_comma_separator}}"
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Price before discount"
+      className="stx-price__amount stx-price__amount--inactive"
+    >
+      €1.750
+    </p>
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      €1.500
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with formatString and no cents 1`] = `
+<Price
+  amount={1499}
+  amountBeforeDiscount={1750}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString="\${{amount_no_decimals}}"
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Price before discount"
+      className="stx-price__amount stx-price__amount--inactive"
+    >
+      $18
+    </p>
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      $15
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with formatString and space separator 1`] = `
+<Price
+  amount={149999}
+  amountBeforeDiscount={175000}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString="\${{amount_with_space_separator}}"
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Price before discount"
+      className="stx-price__amount stx-price__amount--inactive"
+    >
+      $1 750,00
+    </p>
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      $1 499,99
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with intlMoneyFormatObj and basic props 1`] = `
+<Price
+  amount={1222}
+  amountBeforeDiscount={977}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString={null}
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Price before discount"
+      className="stx-price__amount stx-price__amount--inactive"
+    >
+      $9.77
+    </p>
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      $12.22
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with intlMoneyFormatObj and no amount before discount 1`] = `
+<Price
+  amount={1222}
+  amountBeforeDiscount={null}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString={null}
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      $12.22
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with intlMoneyFormatObj and textAlign left 1`] = `
+<Price
+  amount={1222}
+  amountBeforeDiscount={null}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString={null}
+  textAlign="left"
+>
+  <div
+    className="stx-price the-class stx-price--alight-left"
+  >
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      $12.22
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with intlMoneyFormatObj and textAlign right 1`] = `
+<Price
+  amount={1222}
+  amountBeforeDiscount={null}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString={null}
+  textAlign="right"
+>
+  <div
+    className="stx-price the-class stx-price--alight-right"
+  >
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      $12.22
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with intlMoneyFormatObj for foreign language/currency that uses no fractional unit 1`] = `
+<Price
+  amount={127611}
+  amountBeforeDiscount={null}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "JPY",
+      "languageTag": "ja-JP",
+    }
+  }
+  moneyFormatString={null}
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      ￥1,276
+    </p>
+  </div>
+</Price>
+`;
+
+exports[`Price Price renders with zero amount 1`] = `
+<Price
+  amount={0}
+  amountBeforeDiscount={977}
+  amountBeforeDiscountLabel="Price before discount"
+  amountLabel="Product price"
+  className="the-class"
+  intlMoneyFormatObj={
+    Object {
+      "currency": "CAD",
+      "languageTag": "en-CA",
+    }
+  }
+  moneyFormatString={null}
+  textAlign="center"
+>
+  <div
+    className="stx-price the-class stx-price--alight-center"
+  >
+    <p
+      aria-label="Price before discount"
+      className="stx-price__amount stx-price__amount--inactive"
+    >
+      $9.77
+    </p>
+    <p
+      aria-label="Product price"
+      className="stx-price__amount"
+    >
+      $0.00
+    </p>
+  </div>
+</Price>
+`;

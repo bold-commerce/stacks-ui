@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Button renders disabled 1`] = `
+<Button
+  block={false}
+  className=""
+  disabled={true}
+  href={null}
+  loading={false}
+  primary={false}
+  size={null}
+  target={null}
+  title={null}
+  type={null}
+>
+  <button
+    aria-busy={false}
+    aria-disabled={true}
+    className="stx-button stx-button--is-disabled"
+    disabled={true}
+    href={null}
+    target={null}
+    title={null}
+  >
+    <span
+      className="stx-button__text"
+    >
+      Button text
+    </span>
+    <LoadingSpinner
+      className="stx-button__spinner"
+    >
+      <span
+        className="stx-loading-spinner stx-button__spinner"
+      />
+    </LoadingSpinner>
+  </button>
+</Button>
+`;
+
+exports[`Button Button renders loading 1`] = `
+<Button
+  block={false}
+  className=""
+  disabled={false}
+  href={null}
+  loading={true}
+  primary={false}
+  size={null}
+  target={null}
+  title={null}
+  type={null}
+>
+  <button
+    aria-busy={true}
+    aria-disabled={false}
+    className="stx-button stx-button--is-loading"
+    disabled={false}
+    href={null}
+    target={null}
+    title={null}
+  >
+    <span
+      className="stx-button__text"
+    >
+      Button text
+    </span>
+    <LoadingSpinner
+      className="stx-button__spinner"
+    >
+      <span
+        className="stx-loading-spinner stx-button__spinner"
+      />
+    </LoadingSpinner>
+  </button>
+</Button>
+`;
+
+exports[`Button Button renders primary 1`] = `
+<Button
+  block={false}
+  className=""
+  disabled={false}
+  href={null}
+  loading={false}
+  primary={true}
+  size={null}
+  target={null}
+  title={null}
+  type={null}
+>
+  <button
+    aria-busy={false}
+    aria-disabled={false}
+    className="stx-button stx-button--primary"
+    disabled={false}
+    href={null}
+    target={null}
+    title={null}
+  >
+    <span
+      className="stx-button__text"
+    >
+      Button text
+    </span>
+    <LoadingSpinner
+      className="stx-button__spinner"
+    >
+      <span
+        className="stx-loading-spinner stx-button__spinner"
+      />
+    </LoadingSpinner>
+  </button>
+</Button>
+`;
+
+exports[`Button Button renders secondary 1`] = `
+<Button
+  block={false}
+  className=""
+  disabled={false}
+  href={null}
+  loading={false}
+  primary={false}
+  secondary={true}
+  size={null}
+  target={null}
+  title={null}
+  type={null}
+>
+  <button
+    aria-busy={false}
+    aria-disabled={false}
+    className="stx-button stx-button--secondary"
+    disabled={false}
+    href={null}
+    target={null}
+    title={null}
+  >
+    <span
+      className="stx-button__text"
+    >
+      Button text
+    </span>
+    <LoadingSpinner
+      className="stx-button__spinner"
+    >
+      <span
+        className="stx-loading-spinner stx-button__spinner"
+      />
+    </LoadingSpinner>
+  </button>
+</Button>
+`;
+
+exports[`Button Button renders with additional accessibility/custom props 1`] = `
+<Button
+  aria-invalid={false}
+  block={false}
+  className="something"
+  data-additional-prop="additional-prop-test"
+  disabled={false}
+  href={null}
+  loading={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchEnd={[Function]}
+  primary={false}
+  role="button"
+  size={null}
+  target={null}
+  title={null}
+  type={null}
+>
+  <button
+    aria-busy={false}
+    aria-disabled={false}
+    aria-invalid={false}
+    className="stx-button something"
+    data-additional-prop="additional-prop-test"
+    disabled={false}
+    href={null}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onTouchEnd={[Function]}
+    role="button"
+    target={null}
+    title={null}
+  >
+    <span
+      className="stx-button__text"
+    >
+      Button text
+    </span>
+    <LoadingSpinner
+      className="stx-button__spinner"
+    >
+      <span
+        className="stx-loading-spinner stx-button__spinner"
+      />
+    </LoadingSpinner>
+  </button>
+</Button>
+`;
+
+exports[`Button Button renders with basic props 1`] = `
+<Button
+  block={false}
+  className="something"
+  disabled={false}
+  href={null}
+  loading={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchEnd={[Function]}
+  primary={false}
+  size={null}
+  target={null}
+  title={null}
+  type={null}
+>
+  <button
+    aria-busy={false}
+    aria-disabled={false}
+    className="stx-button something"
+    disabled={false}
+    href={null}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onTouchEnd={[Function]}
+    target={null}
+    title={null}
+  >
+    <span
+      className="stx-button__text"
+    >
+      Button text
+    </span>
+    <LoadingSpinner
+      className="stx-button__spinner"
+    >
+      <span
+        className="stx-loading-spinner stx-button__spinner"
+      />
+    </LoadingSpinner>
+  </button>
+</Button>
+`;
