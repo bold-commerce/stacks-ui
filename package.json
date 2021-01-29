@@ -3,6 +3,7 @@
   "description": "Component library built specifically for storefronts.",
   "license": "MIT",
   "main": "lib",
+  "version": "1.0.0",
   "peerDependencies": {
     "classnames": "^2.2.6",
     "prop-types": "^15.6.2",
