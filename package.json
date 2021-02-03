@@ -1,5 +1,5 @@
 {
-  "name": "@bold-commerce/stacks-ui",
+  "name": "@boldcommerce/stacks-ui",
   "description": "Component library built specifically for storefronts.",
   "license": "MIT",
   "main": "lib",
