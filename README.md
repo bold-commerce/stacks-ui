@@ -5,7 +5,12 @@ A bare-bones react component library for building platform independent storefron
 
 Install with NPM
 ```bash
-$ npm install --save @bold-commerce/stacks-ui
+$ npm install --save @boldcommerce/stacks-ui
+```
+
+Install with Yarn
+```bash
+$ yarn add @boldcommerce/stacks-ui
 ```
 
 ## Webpack and Style-Loader
