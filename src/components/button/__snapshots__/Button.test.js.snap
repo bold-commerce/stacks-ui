@@ -2,6 +2,7 @@
 
 exports[`Button Button renders disabled 1`] = `
 <Button
+  aria-label={null}
   block={false}
   className=""
   disabled={true}
@@ -16,6 +17,7 @@ exports[`Button Button renders disabled 1`] = `
   <button
     aria-busy={false}
     aria-disabled={true}
+    aria-label={null}
     className="stx-button stx-button--is-disabled"
     disabled={true}
     href={null}
@@ -40,6 +42,7 @@ exports[`Button Button renders disabled 1`] = `
 
 exports[`Button Button renders loading 1`] = `
 <Button
+  aria-label={null}
   block={false}
   className=""
   disabled={false}
@@ -54,6 +57,7 @@ exports[`Button Button renders loading 1`] = `
   <button
     aria-busy={true}
     aria-disabled={false}
+    aria-label={null}
     className="stx-button stx-button--is-loading"
     disabled={false}
     href={null}
@@ -78,6 +82,7 @@ exports[`Button Button renders loading 1`] = `
 
 exports[`Button Button renders primary 1`] = `
 <Button
+  aria-label={null}
   block={false}
   className=""
   disabled={false}
@@ -92,6 +97,7 @@ exports[`Button Button renders primary 1`] = `
   <button
     aria-busy={false}
     aria-disabled={false}
+    aria-label={null}
     className="stx-button stx-button--primary"
     disabled={false}
     href={null}
@@ -116,6 +122,7 @@ exports[`Button Button renders primary 1`] = `
 
 exports[`Button Button renders secondary 1`] = `
 <Button
+  aria-label={null}
   block={false}
   className=""
   disabled={false}
@@ -131,6 +138,7 @@ exports[`Button Button renders secondary 1`] = `
   <button
     aria-busy={false}
     aria-disabled={false}
+    aria-label={null}
     className="stx-button stx-button--secondary"
     disabled={false}
     href={null}
@@ -156,6 +164,7 @@ exports[`Button Button renders secondary 1`] = `
 exports[`Button Button renders with additional accessibility/custom props 1`] = `
 <Button
   aria-invalid={false}
+  aria-label={null}
   block={false}
   className="something"
   data-additional-prop="additional-prop-test"
@@ -179,6 +188,7 @@ exports[`Button Button renders with additional accessibility/custom props 1`] = 
     aria-busy={false}
     aria-disabled={false}
     aria-invalid={false}
+    aria-label={null}
     className="stx-button something"
     data-additional-prop="additional-prop-test"
     disabled={false}
@@ -211,6 +221,7 @@ exports[`Button Button renders with additional accessibility/custom props 1`] = 
 
 exports[`Button Button renders with basic props 1`] = `
 <Button
+  aria-label={null}
   block={false}
   className="something"
   disabled={false}
@@ -231,6 +242,7 @@ exports[`Button Button renders with basic props 1`] = `
   <button
     aria-busy={false}
     aria-disabled={false}
+    aria-label={null}
     className="stx-button something"
     disabled={false}
     href={null}

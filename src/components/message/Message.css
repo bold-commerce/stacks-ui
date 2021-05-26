@@ -34,3 +34,26 @@
   border-color: #69F224;
   background: #F7FEF3;
 }
+
+.stx-message-icon__icon {
+    display: block;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    fill: currentColor;
+    opacity: 0.8;
+}
+
+.stx-message-icon {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    margin-top: -0.5em;
+    z-index: 1;
+    display: inline-block;
+    vertical-align: middle;
+    height: 1em;
+    width: 1em;
+    min-width: 1em;
+    min-height: 1em;
+}

@@ -10,23 +10,42 @@ Display a prominent message banner to users for instructions or feedback.
 ```
 
 ### Dismissible
+#### Default dismissType
 ```jsx
 import Button from '../button/Button';
 
-initialState = {
-  showMessage: true
-};
+const [showMessage, setShowMessage] = React.useState(true);
 
-state.showMessage ?
+showMessage ?
   <Message
     dismissible
     title="Hi, I'm a message"
-    onDismiss={ e => setState({ showMessage: false })}
+    onDismiss={ e => setShowMessage(false)}
   >
     <p>Here's the message content</p>
   </Message>
 :
-  <Button onClick={ e => setState({ showMessage: true })}>Show Message</Button>
+  <Button onClick={ e => setShowMessage(true)}>Show Message</Button>
+;
+```
+
+#### Icon dismissType
+```jsx
+import Button from '../button/Button';
+
+const [showMessage, setShowMessage] = React.useState(true);
+
+showMessage ?
+  <Message
+    dismissible
+    dismissType = 'icon'
+    title="Hi, I'm a message"
+    onDismiss={ e => setShowMessage(false)}
+  >
+    <p>Here's the message content</p>
+  </Message>
+:
+  <Button onClick={ e => setShowMessage(true)}>Show Message</Button>
 ;
 ```
 
