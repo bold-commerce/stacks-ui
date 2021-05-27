@@ -2,11 +2,12 @@ import React from 'react';
 import cn from 'classnames';
 import PropTypes from 'prop-types';
 import Button from '../button/Button';
+import times from './timesIcon';
 
 import './Message.css';
 
 function Message(props) {
-  const { className, children, dismissible, onDismiss, title, type, ...otherProps } = props;
+  const { className, children, dismissible, onDismiss, dismissType, title, type, ...otherProps } = props;
   const isAlert = type === 'alert';
   const classNames = cn([
     'stx-message',
@@ -16,6 +17,15 @@ function Message(props) {
     { 'stx-message--with-success': type === 'success' },
     className,
   ]);
+
+  const timesIcon = <span className='stx-message-icon'>
+    <svg
+      className='stx-message-icon__icon'
+      viewBox='0 0 24 24'
+    >
+      <path className='stx-message-icon__path' fill='#6B6B6B' d={times} />
+    </svg>
+  </span>;
 
   return (
     <div
@@ -27,17 +37,16 @@ function Message(props) {
 
       { dismissible && <Button
         className='stx-message__dismiss-button'
+        aria-label='close'
         secondary
         onClick={onDismiss}>
-        Dismiss
+        {dismissType === 'icon' ? timesIcon : 'Dismiss'}
       </Button> }
 
       { children }
     </div>
   );
 }
-
-Message.defaultProps = {};
 
 Message.propTypes = {
   /** Optional className for the component */
@@ -55,8 +64,15 @@ Message.propTypes = {
   /** Event called when the dismiss button is clicked */
   onDismiss: PropTypes.func,
 
+  /** Dismiss button type */
+  dismissType: PropTypes.oneOf(['string', 'icon']),
+
   /** Child elements */
   children: PropTypes.node,
+};
+
+Message.defaultProps = {
+  dismissType: 'string',
 };
 
 export default Message;

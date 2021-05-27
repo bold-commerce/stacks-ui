@@ -4,6 +4,7 @@ exports[`Message Message renders additional data props 1`] = `
 <Message
   className="the-class"
   data-additional-prop="additional-prop"
+  dismissType="string"
   id="the-id"
 >
   <div
@@ -20,6 +21,7 @@ exports[`Message Message renders additional data props 1`] = `
 exports[`Message Message renders with basic props 1`] = `
 <Message
   className="the-class"
+  dismissType="string"
   id="the-id"
 >
   <div
@@ -32,9 +34,10 @@ exports[`Message Message renders with basic props 1`] = `
 </Message>
 `;
 
-exports[`Message Message renders with dismiss button 1`] = `
+exports[`Message Message renders with default dismiss button 1`] = `
 <Message
   className="the-class"
+  dismissType="string"
   dismissible={true}
   id="the-id"
   onDismiss={[Function]}
@@ -45,6 +48,7 @@ exports[`Message Message renders with dismiss button 1`] = `
     role="status"
   >
     <Button
+      aria-label="close"
       block={false}
       className="stx-message__dismiss-button"
       disabled={false}
@@ -61,6 +65,7 @@ exports[`Message Message renders with dismiss button 1`] = `
       <button
         aria-busy={false}
         aria-disabled={false}
+        aria-label="close"
         className="stx-button stx-button--secondary stx-message__dismiss-button"
         disabled={false}
         href={null}
@@ -87,9 +92,81 @@ exports[`Message Message renders with dismiss button 1`] = `
 </Message>
 `;
 
+exports[`Message Message renders with dismiss icon button 1`] = `
+<Message
+  className="the-class"
+  dismissType="icon"
+  dismissible={true}
+  id="the-id"
+  onDismiss={[Function]}
+>
+  <div
+    className="stx-message the-class"
+    id="the-id"
+    role="status"
+  >
+    <Button
+      aria-label="close"
+      block={false}
+      className="stx-message__dismiss-button"
+      disabled={false}
+      href={null}
+      loading={false}
+      onClick={[Function]}
+      primary={false}
+      secondary={true}
+      size={null}
+      target={null}
+      title={null}
+      type={null}
+    >
+      <button
+        aria-busy={false}
+        aria-disabled={false}
+        aria-label="close"
+        className="stx-button stx-button--secondary stx-message__dismiss-button"
+        disabled={false}
+        href={null}
+        onClick={[Function]}
+        target={null}
+        title={null}
+      >
+        <span
+          className="stx-button__text"
+        >
+          <span
+            className="stx-message-icon"
+          >
+            <svg
+              className="stx-message-icon__icon"
+              viewBox="0 0 24 24"
+            >
+              <path
+                className="stx-message-icon__path"
+                d="M11.5,10.3786797 L4.56066017,3.43933983 C3.97487373,2.85355339 3.02512627,2.85355339 2.43933983,3.43933983 C1.85355339,4.02512627 1.85355339,4.97487373 2.43933983,5.56066017 L9.37867966,12.5 L2.43933983,19.4393398 C1.85355339,20.0251263 1.85355339,20.9748737 2.43933983,21.5606602 C3.02512627,22.1464466 3.97487373,22.1464466 4.56066017,21.5606602 L11.5,14.6213203 L18.4393398,21.5606602 C19.0251263,22.1464466 19.9748737,22.1464466 20.5606602,21.5606602 C21.1464466,20.9748737 21.1464466,20.0251263 20.5606602,19.4393398 L13.6213203,12.5 L20.5606602,5.56066017 C21.1464466,4.97487373 21.1464466,4.02512627 20.5606602,3.43933983 C19.9748737,2.85355339 19.0251263,2.85355339 18.4393398,3.43933983 L11.5,10.3786797 Z"
+                fill="#6B6B6B"
+              />
+            </svg>
+          </span>
+        </span>
+        <LoadingSpinner
+          className="stx-button__spinner"
+        >
+          <span
+            className="stx-loading-spinner stx-button__spinner"
+          />
+        </LoadingSpinner>
+      </button>
+    </Button>
+    Hello World
+  </div>
+</Message>
+`;
+
 exports[`Message Message renders with title 1`] = `
 <Message
   className="the-class"
+  dismissType="string"
   id="the-id"
   title="title"
 >
@@ -111,6 +188,7 @@ exports[`Message Message renders with title 1`] = `
 exports[`Message Message renders with type = alert 1`] = `
 <Message
   className="the-class"
+  dismissType="string"
   id="the-id"
   type="alert"
 >
@@ -127,6 +205,7 @@ exports[`Message Message renders with type = alert 1`] = `
 exports[`Message Message renders with type = info 1`] = `
 <Message
   className="the-class"
+  dismissType="string"
   id="the-id"
   type="info"
 >
@@ -143,6 +222,7 @@ exports[`Message Message renders with type = info 1`] = `
 exports[`Message Message renders with type = success 1`] = `
 <Message
   className="the-class"
+  dismissType="string"
   id="the-id"
   type="success"
 >
@@ -159,6 +239,7 @@ exports[`Message Message renders with type = success 1`] = `
 exports[`Message Message renders with type = warning 1`] = `
 <Message
   className="the-class"
+  dismissType="string"
   id="the-id"
   type="warning"
 >

@@ -7,7 +7,7 @@ import LoadingSpinner from '../loadingspinner/LoadingSpinner';
 import './Button.css';
 
 function Button(props) {
-  const { block, children, className, disabled, href, loading, primary, secondary, size, target, title, type,
+  const { block, children, className, disabled, href, loading, 'aria-label': ariaLabel, primary, secondary, size, target, title, type,
     ...otherProps } = props;
 
   const classNames = cn([
@@ -33,6 +33,7 @@ function Button(props) {
       target={target}
       disabled={disabled}
       aria-disabled={disabled}
+      aria-label={ariaLabel}
       aria-busy={loading}
       {...buttonType}
       {...otherProps}
@@ -51,6 +52,7 @@ Button.defaultProps = {
   size: null,
   type: null,
 
+  'aria-label': null,
   primary: false,
   disabled: false,
   loading: false,
@@ -74,6 +76,8 @@ Button.propTypes = {
   /** Sets the type of the generated button */
   type: PropTypes.oneOf(['submit', 'reset', 'button']),
 
+  /** String indicating the aria label */
+  'aria-label': PropTypes.string,
   /** Boolean indicating whether the button should render as primary */
   primary: PropTypes.bool,
   /** Boolean indicating whether the button should render as secondary */

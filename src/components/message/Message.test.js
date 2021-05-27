@@ -29,11 +29,25 @@ describe('Message', () => {
     expect(toJson(output)).toMatchSnapshot();
   });
 
-  test('Message renders with dismiss button', () => {
+  test('Message renders with default dismiss button', () => {
     const output = mount(<Message
       id='the-id'
       className='the-class'
       dismissible
+      onDismiss={onDismiss}
+    >
+      Hello World
+    </Message>);
+
+    expect(toJson(output)).toMatchSnapshot();
+  });
+
+  test('Message renders with dismiss icon button', () => {
+    const output = mount(<Message
+      id='the-id'
+      className='the-class'
+      dismissible
+      dismissType='icon'
       onDismiss={onDismiss}
     >
       Hello World
