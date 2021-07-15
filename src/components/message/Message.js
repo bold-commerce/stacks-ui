@@ -7,7 +7,7 @@ import times from './timesIcon';
 import './Message.css';
 
 function Message(props) {
-  const { className, children, dismissible, onDismiss, dismissType, title, type, ...otherProps } = props;
+  const { className, children, dismissible, onDismiss, dismissType, title, type, dismissText, ...otherProps } = props;
   const isAlert = type === 'alert';
   const classNames = cn([
     'stx-message',
@@ -37,10 +37,10 @@ function Message(props) {
 
       { dismissible && <Button
         className='stx-message__dismiss-button'
-        aria-label='close'
+        aria-label={dismissText}
         secondary
         onClick={onDismiss}>
-        {dismissType === 'icon' ? timesIcon : 'Dismiss'}
+        {dismissType === 'icon' ? timesIcon : dismissText}
       </Button> }
 
       { children }
@@ -67,12 +67,16 @@ Message.propTypes = {
   /** Dismiss button type */
   dismissType: PropTypes.oneOf(['string', 'icon']),
 
+  /** Dismiss text for dismissType of string and aria label of dismiss button */
+  dismissText: PropTypes.string,
+
   /** Child elements */
   children: PropTypes.node,
 };
 
 Message.defaultProps = {
   dismissType: 'string',
+  dismissText: 'Dismiss',
 };
 
 export default Message;
