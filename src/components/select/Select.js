@@ -44,7 +44,7 @@ class Select extends Component {
       { 'stx-select--is-disabled': disabled },
       { 'stx-select--is-read-only': readOnly },
       { 'stx-select--is-loading': loading },
-      { 'stx-select--has-focus': hasFocus },
+      { 'stx-select--has-focus': this.state.hasFocus },
       { 'stx-select--has-value': hasValue },
       { 'stx-select--with-placeholder': placeholder },
       { 'stx-select--alert': messageType === 'alert' || messageType === 'error' },
@@ -167,8 +167,6 @@ Select.propTypes = {
   /** The value for the option that is used as a placeholder */
   placeholderValue: PropTypes.string,
 
-  /** If the component has focus */
-  hasFocus: PropTypes.bool,
   /** If the component has a value */
   hasValue: PropTypes.bool,
 
