@@ -1,0 +1,100 @@
+.stx-pill {
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  margin: 0px 0.3em;
+  border: 1px solid #5C6670;
+  background-color: #ECEEF0;
+  color: #394046;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding: 0.0625rem 0.375rem;
+  line-height: 1rem;
+  border-radius: 0.625rem;
+}
+
+.stx-pill--with-info {
+  border-color: #3B63FF;
+  background-color: #E8ECFF;
+  color: #264BD9;
+}
+
+.stx-pill--with-warning {
+  border-color: #E16D00;
+  background-color: #F0DAFF;
+  color: #B25600;
+}
+
+.stx-pill--with-success {
+  border-color: #008757;
+  background-color: #DEF6EE;
+  color: #00633F;
+}
+
+.stx-pill--with-alert {
+  border-color: #E41244;
+  background-color: #FFEBF0;
+  color: #B4002B;
+}
+
+.stx-pill--is-clickable {
+  cursor: pointer;
+}
+
+.stx-pill--is-minimized {
+  padding: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.stx-pill--is-minimized > .bv-pill__icon,
+.stx-pill--is-minimized > .bv-pill__label,
+.stx-pill--is-minimized > .bv-pill__dismiss-button {
+  display: none;
+}
+
+.stx-pill--is-filled {
+  background-color: #5C6670;
+  border-color: rgba(0,0,0,0.1); 
+  color: #fff;
+}
+
+.stx-pill--is-filled.bv-pill--with-info {
+  background-color: #3B63FF;
+  color: #fff;
+}
+
+.stx-pill--is-filled.bv-pill--with-warning {
+  background-color: #B25600;
+  color: #fff;
+}
+
+.stx-pill--is-filled.bv-pill--with-success {
+  background-color: #008757;
+  color: #fff;
+}
+
+.stx-pill--is-filled.bv-pill--with-alert {
+  background-color: #E41244;
+  color: #fff;
+}
+
+.stx-pill__label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.stx-pill__icon {
+  margin-left: -0.125rem;
+  margin-right: 0.125rem;
+}
+
+.stx-pill__dismiss-button {
+  margin-left: 0.125rem;
+  margin-right: -0.125rem;
+  width: 1rem;
+  height: 1rem;
+}

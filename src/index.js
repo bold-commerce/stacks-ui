@@ -19,6 +19,7 @@ export { default as CheckboxField } from './components/checkboxfield/CheckboxFie
 export { default as LoadingSpinner } from './components/loadingspinner/LoadingSpinner';
 export { default as ProgressBar } from './components/progressbar/ProgressBar';
 export { default as Message } from './components/message/Message';
+export { default as Pill } from './components/pill/Pill';
 
 // Product
 export { default as Details } from './components/details/Details';

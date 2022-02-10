@@ -59,6 +59,7 @@ module.exports = {
         'src/components/loadingspinner/LoadingSpinner.js',
         'src/components/progressbar/ProgressBar.js',
         'src/components/message/Message.js',
+        'sec/components/pill/Pill.js',
       ],
     },
 
