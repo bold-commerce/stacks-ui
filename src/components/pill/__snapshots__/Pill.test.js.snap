@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pill Pill renders with a11y props 1`] = `
+<span
+  aria-label="aria-label"
+  className="stx-pill"
+>
+  <span
+    className="stx-pill__label"
+  />
+</span>
+`;
+
+exports[`Pill Pill renders with basic props 1`] = `
+<span
+  className="stx-pill class-name"
+>
+  <span
+    className="stx-pill__label"
+  >
+    label
+  </span>
+</span>
+`;
