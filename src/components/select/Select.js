@@ -29,7 +29,6 @@ class Select extends Component {
       messageType,
       placeholder,
       hasValue,
-      hasFocus,
       loading,
       readOnly,
       value,

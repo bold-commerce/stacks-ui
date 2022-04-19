@@ -4,19 +4,18 @@ import PropTypes from 'prop-types';
 
 import Field from '../field/Field';
 import Radio from '../radio/Radio';
+import { generateUniqueId } from '../../utils/generateUniqueId';
 
 import './RadioField.css';
 
 class RadioField extends Component {
   constructor(props) {
     super(props);
-    window.stxFieldCount = window.stxFieldCount ? window.stxFieldCount + 1 : 1;
-    this.forId = `stxField${window.stxFieldCount}`;
+    this.forId = `stxField${generateUniqueId()}`;
   }
 
   render() {
     const { className, disabled, helpText, id, label, messageType, messageText, value, ...otherProps } = this.props;
-
     const classNames = cn([
       'stx-field--with-radio-field',
       className,

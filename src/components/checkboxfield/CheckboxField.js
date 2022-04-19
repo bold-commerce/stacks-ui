@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 
 import Field from '../field/Field';
 import Checkbox from '../checkbox/Checkbox';
+import { generateUniqueId } from '../../utils/generateUniqueId';
 
 import './CheckboxField.css';
 
 class CheckboxField extends Component {
   constructor(props) {
     super(props);
-    window.stxFieldCount = window.stxFieldCount ? window.stxFieldCount + 1 : 1;
-    this.forId = `stxField${window.stxFieldCount}`;
+    this.forId = `stxField${generateUniqueId()}`;
   }
 
   render() {

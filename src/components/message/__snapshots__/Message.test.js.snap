@@ -4,6 +4,7 @@ exports[`Message Message renders additional data props 1`] = `
 <Message
   className="the-class"
   data-additional-prop="additional-prop"
+  dismissText="Dismiss"
   dismissType="string"
   id="the-id"
 >
@@ -21,6 +22,7 @@ exports[`Message Message renders additional data props 1`] = `
 exports[`Message Message renders with basic props 1`] = `
 <Message
   className="the-class"
+  dismissText="Dismiss"
   dismissType="string"
   id="the-id"
 >
@@ -37,6 +39,7 @@ exports[`Message Message renders with basic props 1`] = `
 exports[`Message Message renders with default dismiss button 1`] = `
 <Message
   className="the-class"
+  dismissText="Dismiss"
   dismissType="string"
   dismissible={true}
   id="the-id"
@@ -48,7 +51,7 @@ exports[`Message Message renders with default dismiss button 1`] = `
     role="status"
   >
     <Button
-      aria-label="close"
+      aria-label="Dismiss"
       block={false}
       className="stx-message__dismiss-button"
       disabled={false}
@@ -65,7 +68,7 @@ exports[`Message Message renders with default dismiss button 1`] = `
       <button
         aria-busy={false}
         aria-disabled={false}
-        aria-label="close"
+        aria-label="Dismiss"
         className="stx-button stx-button--secondary stx-message__dismiss-button"
         disabled={false}
         href={null}
@@ -95,6 +98,7 @@ exports[`Message Message renders with default dismiss button 1`] = `
 exports[`Message Message renders with dismiss icon button 1`] = `
 <Message
   className="the-class"
+  dismissText="Dismiss"
   dismissType="icon"
   dismissible={true}
   id="the-id"
@@ -106,7 +110,7 @@ exports[`Message Message renders with dismiss icon button 1`] = `
     role="status"
   >
     <Button
-      aria-label="close"
+      aria-label="Dismiss"
       block={false}
       className="stx-message__dismiss-button"
       disabled={false}
@@ -123,7 +127,7 @@ exports[`Message Message renders with dismiss icon button 1`] = `
       <button
         aria-busy={false}
         aria-disabled={false}
-        aria-label="close"
+        aria-label="Dismiss"
         className="stx-button stx-button--secondary stx-message__dismiss-button"
         disabled={false}
         href={null}
@@ -166,6 +170,7 @@ exports[`Message Message renders with dismiss icon button 1`] = `
 exports[`Message Message renders with title 1`] = `
 <Message
   className="the-class"
+  dismissText="Dismiss"
   dismissType="string"
   id="the-id"
   title="title"
@@ -188,6 +193,7 @@ exports[`Message Message renders with title 1`] = `
 exports[`Message Message renders with type = alert 1`] = `
 <Message
   className="the-class"
+  dismissText="Dismiss"
   dismissType="string"
   id="the-id"
   type="alert"
@@ -205,6 +211,7 @@ exports[`Message Message renders with type = alert 1`] = `
 exports[`Message Message renders with type = info 1`] = `
 <Message
   className="the-class"
+  dismissText="Dismiss"
   dismissType="string"
   id="the-id"
   type="info"
@@ -222,6 +229,7 @@ exports[`Message Message renders with type = info 1`] = `
 exports[`Message Message renders with type = success 1`] = `
 <Message
   className="the-class"
+  dismissText="Dismiss"
   dismissType="string"
   id="the-id"
   type="success"
@@ -239,6 +247,7 @@ exports[`Message Message renders with type = success 1`] = `
 exports[`Message Message renders with type = warning 1`] = `
 <Message
   className="the-class"
+  dismissText="Dismiss"
   dismissType="string"
   id="the-id"
   type="warning"
