@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 
 import Field from '../field/Field';
 import Input from '../input/Input';
+import { generateUniqueId } from '../../utils/generateUniqueId';
 
 import './InputField.css';
 
 class InputField extends Component {
   constructor(props) {
     super(props);
-    window.stxFieldCount = window.stxFieldCount ? window.stxFieldCount + 1 : 1;
-    this.forId = `stxField${window.stxFieldCount}`;
+    this.forId = `stxField${generateUniqueId()}`;
   }
 
   render() {

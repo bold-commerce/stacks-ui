@@ -22,13 +22,13 @@ function Pill(props) {
   ]);
 
   const timesIcon = <span className='stx-pill__icon'>
-  <svg
-    className='stx-pill-icon__icon'
-    viewBox='0 0 24 24'
-  >
-    <path className='stx-pill-icon__path' fill='#6B6B6B' d={times} />
-  </svg>
-</span>;
+    <svg
+      className='stx-pill-icon__icon'
+      viewBox='0 0 24 24'
+    >
+      <path className='stx-pill-icon__path' fill='#6B6B6B' d={times} />
+    </svg>
+  </span>;
 
   return (
     <span
@@ -36,7 +36,7 @@ function Pill(props) {
       className={classNames}
       onClick={onClick}
     >
-      <span className="stx-pill__label">
+      <span className='stx-pill__label'>
         { label }
       </span>
       { dismissible && <button
