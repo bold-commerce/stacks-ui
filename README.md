@@ -1,4 +1,7 @@
 # Stacks UI
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bold-commerce/stacks-ui/blob/main/LICENSE.md) [![npm version](https://img.shields.io/npm/v/@boldcommerce/stacks-ui.svg?style=flat)](https://www.npmjs.com/package/@boldcommerce/stacks-ui)
+
 A bare-bones react component library for building platform independent storefront integrations for ecommerce stores.
 
 ## Installation
