@@ -11,6 +11,7 @@ describe('Field', () => {
       messageText='Some message text'
       messageType='alert'
       helpText='Some help text'
+      ariaLive='assertive'
     >
       <div>
         {'There are children'}

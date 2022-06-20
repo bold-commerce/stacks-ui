@@ -26,6 +26,7 @@ describe('InputField', () => {
       onChange={onChange}
       onKeyUp={onKeyUp}
       onKeyDown={onKeyDown}
+      ariaLive='assertive'
       selectOnFocus
     />);
 

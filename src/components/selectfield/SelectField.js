@@ -15,7 +15,7 @@ class SelectField extends Component {
   }
 
   render() {
-    const { id, label, className, disabled, readOnly, messageType, messageText, helpText, ...otherProps } = this.props;
+    const { id, label, className, disabled, readOnly, messageType, messageText, helpText, ariaLive, ...otherProps } = this.props;
     const classNames = cn([
       'stx-field--with-select',
       className,
@@ -31,6 +31,7 @@ class SelectField extends Component {
         messageText={messageText}
         disabled={disabled}
         readOnly={readOnly}
+        ariaLive={ariaLive}
       >
         <Select
           {...otherProps}
@@ -66,6 +67,10 @@ SelectField.propTypes = {
 
   /** The type of message to display */
   messageType: PropTypes.oneOf(['alert', 'warning', 'success', '']),
+
+  /** The aria-live attribute value that will be set on the message if one is given */
+  ariaLive: PropTypes.oneOf(['assertive', 'polite']),
+
   /** The order in which fields should gain focus when pressing Tab */
   tabIndex: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 

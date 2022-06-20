@@ -191,6 +191,7 @@ exports[`InputField InputField renders with a tabIndex value 1`] = `
 
 exports[`InputField InputField renders with basic props 1`] = `
 <Field
+  ariaLive="assertive"
   className="stx-field--with-input html-class"
   htmlFor="test-id"
 >

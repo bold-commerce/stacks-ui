@@ -6,7 +6,7 @@ import './Field.css';
 
 function Field(props) {
   const {
-    children, className, disabled, helpText, htmlFor, id, label, messageText, messageType, ...otherProps
+    children, className, disabled, helpText, htmlFor, id, label, messageText, messageType, ariaLive, ...otherProps
   } = props;
 
   const classNames = cn([
@@ -19,7 +19,7 @@ function Field(props) {
   ]);
 
   const renderMessageText = () => {
-    return messageText && <div className='stx-field__message'>{ messageText }</div>;
+    return messageText && <div className='stx-field__message' aria-live={ariaLive}>{ messageText }</div>;
   };
 
   const renderHelpText = () => {
@@ -66,6 +66,9 @@ Field.propTypes = {
 
   /** The type of message to show */
   messageType: PropTypes.oneOf(['success', 'warning', 'alert', '']),
+
+  /** The aria-live attribute value that will be set on the message if one is given */
+  ariaLive: PropTypes.oneOf(['polite', 'assertive']),
 
   /** The text to display for the message */
   messageText: PropTypes.string,
