@@ -17,6 +17,7 @@ describe('SelectField', () => {
       tabIndex='1'
       placeholder='Select something'
       placeholderValue='placeholder value'
+      ariaLive='assertive'
     >
       <option value='one'>One</option>
       <option value='two'>Two</option>

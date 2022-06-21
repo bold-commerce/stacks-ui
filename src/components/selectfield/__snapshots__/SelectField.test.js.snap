@@ -2,6 +2,7 @@
 
 exports[`SelectField SelectField renders with basic props 1`] = `
 <SelectField
+  ariaLive="assertive"
   className="the-class"
   onBlur={[Function]}
   onChange={[Function]}
@@ -11,6 +12,7 @@ exports[`SelectField SelectField renders with basic props 1`] = `
   tabIndex="1"
 >
   <Field
+    ariaLive="assertive"
     className="stx-field--with-select the-class"
     htmlFor="stxField1"
   >

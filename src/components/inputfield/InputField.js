@@ -15,7 +15,7 @@ class InputField extends Component {
   }
 
   render() {
-    const { className, disabled, helpText, id, label, messageText, messageType, readOnly, ...otherProps } = this.props;
+    const { className, disabled, helpText, id, label, messageText, messageType, readOnly, ariaLive, ...otherProps } = this.props;
     const classNames = cn([
       'stx-field--with-input',
       className,
@@ -31,6 +31,7 @@ class InputField extends Component {
         messageText={messageText}
         disabled={disabled}
         readOnly={readOnly}
+        ariaLive={ariaLive}
       >
         <Input
           {...otherProps}
@@ -58,6 +59,8 @@ InputField.propTypes = {
   messageType: PropTypes.oneOf(['success', 'warning', 'alert', '']),
   /** The text that should appear as a message */
   messageText: PropTypes.string,
+  /** The aria-live attribute value that will be set on the message if one is given */
+  ariaLive: PropTypes.oneOf(['assertive', 'polite']),
   /** Whether or not the field is disabled */
   disabled: PropTypes.bool,
   /** Whether or not the field is read only */
