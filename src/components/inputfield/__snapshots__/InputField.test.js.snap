@@ -4,11 +4,13 @@ exports[`InputField InputField render disabled when disabled is true 1`] = `
 <Field
   className="stx-field--with-input"
   disabled={true}
-  htmlFor="stxField25"
+  htmlFor="stxField49"
+  messageId="stxFieldMessage50"
 >
   <Input
+    aria-describedby="stxFieldMessage50"
     disabled={true}
-    id="stxField25"
+    id="stxField49"
     selectOnFocus={false}
     type="text"
   />
@@ -18,11 +20,13 @@ exports[`InputField InputField render disabled when disabled is true 1`] = `
 exports[`InputField InputField render readOnly when readOnly is true 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField26"
+  htmlFor="stxField51"
+  messageId="stxFieldMessage52"
   readOnly={true}
 >
   <Input
-    id="stxField26"
+    aria-describedby="stxFieldMessage52"
+    id="stxField51"
     readOnly={true}
     selectOnFocus={false}
     type="text"
@@ -33,10 +37,12 @@ exports[`InputField InputField render readOnly when readOnly is true 1`] = `
 exports[`InputField InputField render with a loading spinner when loading is true 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField27"
+  htmlFor="stxField53"
+  messageId="stxFieldMessage54"
 >
   <Input
-    id="stxField27"
+    aria-describedby="stxFieldMessage54"
+    id="stxField53"
     loading={true}
     selectOnFocus={false}
     type="text"
@@ -47,11 +53,13 @@ exports[`InputField InputField render with a loading spinner when loading is tru
 exports[`InputField InputField renders with a autoComplete value 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField24"
+  htmlFor="stxField47"
+  messageId="stxFieldMessage48"
 >
   <Input
+    aria-describedby="stxFieldMessage48"
     autoComplete="off"
-    id="stxField24"
+    id="stxField47"
     selectOnFocus={false}
     type="text"
   />
@@ -61,11 +69,14 @@ exports[`InputField InputField renders with a autoComplete value 1`] = `
 exports[`InputField InputField renders with a message type of alert 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField17"
+  htmlFor="stxField33"
+  messageId="stxFieldMessage34"
   messageType="alert"
 >
   <Input
-    id="stxField17"
+    aria-describedby="stxFieldMessage34"
+    aria-invalid="true"
+    id="stxField33"
     messageType="alert"
     selectOnFocus={false}
     type="text"
@@ -76,11 +87,13 @@ exports[`InputField InputField renders with a message type of alert 1`] = `
 exports[`InputField InputField renders with a message type of success 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField19"
+  htmlFor="stxField37"
+  messageId="stxFieldMessage38"
   messageType="success"
 >
   <Input
-    id="stxField19"
+    aria-describedby="stxFieldMessage38"
+    id="stxField37"
     messageType="success"
     selectOnFocus={false}
     type="text"
@@ -91,11 +104,13 @@ exports[`InputField InputField renders with a message type of success 1`] = `
 exports[`InputField InputField renders with a message type of warning 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField18"
+  htmlFor="stxField35"
+  messageId="stxFieldMessage36"
   messageType="warning"
 >
   <Input
-    id="stxField18"
+    aria-describedby="stxFieldMessage36"
+    id="stxField35"
     messageType="warning"
     selectOnFocus={false}
     type="text"
@@ -106,10 +121,12 @@ exports[`InputField InputField renders with a message type of warning 1`] = `
 exports[`InputField InputField renders with a min and max length 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField21"
+  htmlFor="stxField41"
+  messageId="stxFieldMessage42"
 >
   <Input
-    id="stxField21"
+    aria-describedby="stxFieldMessage42"
+    id="stxField41"
     maxLength={5}
     minLength={1}
     selectOnFocus={false}
@@ -121,10 +138,12 @@ exports[`InputField InputField renders with a min and max length 1`] = `
 exports[`InputField InputField renders with a min and max value 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField20"
+  htmlFor="stxField39"
+  messageId="stxFieldMessage40"
 >
   <Input
-    id="stxField20"
+    aria-describedby="stxFieldMessage40"
+    id="stxField39"
     max={5}
     min={1}
     selectOnFocus={false}
@@ -136,10 +155,12 @@ exports[`InputField InputField renders with a min and max value 1`] = `
 exports[`InputField InputField renders with a prefix 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField3"
+  htmlFor="stxField5"
+  messageId="stxFieldMessage6"
 >
   <Input
-    id="stxField3"
+    aria-describedby="stxFieldMessage6"
+    id="stxField5"
     prefix="-"
     selectOnFocus={false}
     type="text"
@@ -150,10 +171,12 @@ exports[`InputField InputField renders with a prefix 1`] = `
 exports[`InputField InputField renders with a step value 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField22"
+  htmlFor="stxField43"
+  messageId="stxFieldMessage44"
 >
   <Input
-    id="stxField22"
+    aria-describedby="stxFieldMessage44"
+    id="stxField43"
     selectOnFocus={false}
     step={5}
     type="text"
@@ -164,10 +187,12 @@ exports[`InputField InputField renders with a step value 1`] = `
 exports[`InputField InputField renders with a suffix 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField4"
+  htmlFor="stxField7"
+  messageId="stxFieldMessage8"
 >
   <Input
-    id="stxField4"
+    aria-describedby="stxFieldMessage8"
+    id="stxField7"
     selectOnFocus={false}
     suffix="px"
     type="text"
@@ -178,10 +203,12 @@ exports[`InputField InputField renders with a suffix 1`] = `
 exports[`InputField InputField renders with a tabIndex value 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField23"
+  htmlFor="stxField45"
+  messageId="stxFieldMessage46"
 >
   <Input
-    id="stxField23"
+    aria-describedby="stxFieldMessage46"
+    id="stxField45"
     selectOnFocus={false}
     tabIndex={-5}
     type="text"
@@ -194,8 +221,10 @@ exports[`InputField InputField renders with basic props 1`] = `
   ariaLive="assertive"
   className="stx-field--with-input html-class"
   htmlFor="test-id"
+  messageId="stxFieldMessage2"
 >
   <Input
+    aria-describedby="stxFieldMessage2"
     data-additional-prop="additional-prop-test"
     id="test-id"
     name="name"
@@ -215,10 +244,12 @@ exports[`InputField InputField renders with basic props 1`] = `
 exports[`InputField InputField renders with size small 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField16"
+  htmlFor="stxField31"
+  messageId="stxFieldMessage32"
 >
   <Input
-    id="stxField16"
+    aria-describedby="stxFieldMessage32"
+    id="stxField31"
     selectOnFocus={false}
     size="small"
     type="text"
@@ -229,10 +260,12 @@ exports[`InputField InputField renders with size small 1`] = `
 exports[`InputField InputField renders with type date 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField6"
+  htmlFor="stxField11"
+  messageId="stxFieldMessage12"
 >
   <Input
-    id="stxField6"
+    aria-describedby="stxFieldMessage12"
+    id="stxField11"
     selectOnFocus={false}
     type="date"
   />
@@ -242,10 +275,12 @@ exports[`InputField InputField renders with type date 1`] = `
 exports[`InputField InputField renders with type datetime-local 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField7"
+  htmlFor="stxField13"
+  messageId="stxFieldMessage14"
 >
   <Input
-    id="stxField7"
+    aria-describedby="stxFieldMessage14"
+    id="stxField13"
     selectOnFocus={false}
     type="datetime-local"
   />
@@ -255,10 +290,12 @@ exports[`InputField InputField renders with type datetime-local 1`] = `
 exports[`InputField InputField renders with type email 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField12"
+  htmlFor="stxField23"
+  messageId="stxFieldMessage24"
 >
   <Input
-    id="stxField12"
+    aria-describedby="stxFieldMessage24"
+    id="stxField23"
     selectOnFocus={false}
     type="email"
   />
@@ -268,10 +305,12 @@ exports[`InputField InputField renders with type email 1`] = `
 exports[`InputField InputField renders with type file 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField15"
+  htmlFor="stxField29"
+  messageId="stxFieldMessage30"
 >
   <Input
-    id="stxField15"
+    aria-describedby="stxFieldMessage30"
+    id="stxField29"
     selectOnFocus={false}
     type="file"
   />
@@ -281,10 +320,12 @@ exports[`InputField InputField renders with type file 1`] = `
 exports[`InputField InputField renders with type number 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField10"
+  htmlFor="stxField19"
+  messageId="stxFieldMessage20"
 >
   <Input
-    id="stxField10"
+    aria-describedby="stxFieldMessage20"
+    id="stxField19"
     selectOnFocus={false}
     type="number"
   />
@@ -294,10 +335,12 @@ exports[`InputField InputField renders with type number 1`] = `
 exports[`InputField InputField renders with type password 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField14"
+  htmlFor="stxField27"
+  messageId="stxFieldMessage28"
 >
   <Input
-    id="stxField14"
+    aria-describedby="stxFieldMessage28"
+    id="stxField27"
     selectOnFocus={false}
     type="password"
   />
@@ -307,10 +350,12 @@ exports[`InputField InputField renders with type password 1`] = `
 exports[`InputField InputField renders with type search 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField9"
+  htmlFor="stxField17"
+  messageId="stxFieldMessage18"
 >
   <Input
-    id="stxField9"
+    aria-describedby="stxFieldMessage18"
+    id="stxField17"
     selectOnFocus={false}
     type="search"
   />
@@ -320,10 +365,12 @@ exports[`InputField InputField renders with type search 1`] = `
 exports[`InputField InputField renders with type tel 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField11"
+  htmlFor="stxField21"
+  messageId="stxFieldMessage22"
 >
   <Input
-    id="stxField11"
+    aria-describedby="stxFieldMessage22"
+    id="stxField21"
     selectOnFocus={false}
     type="tel"
   />
@@ -333,10 +380,12 @@ exports[`InputField InputField renders with type tel 1`] = `
 exports[`InputField InputField renders with type text 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField5"
+  htmlFor="stxField9"
+  messageId="stxFieldMessage10"
 >
   <Input
-    id="stxField5"
+    aria-describedby="stxFieldMessage10"
+    id="stxField9"
     selectOnFocus={false}
     type="text"
   />
@@ -346,10 +395,12 @@ exports[`InputField InputField renders with type text 1`] = `
 exports[`InputField InputField renders with type time 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField8"
+  htmlFor="stxField15"
+  messageId="stxFieldMessage16"
 >
   <Input
-    id="stxField8"
+    aria-describedby="stxFieldMessage16"
+    id="stxField15"
     selectOnFocus={false}
     type="time"
   />
@@ -359,10 +410,12 @@ exports[`InputField InputField renders with type time 1`] = `
 exports[`InputField InputField renders with type url 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField13"
+  htmlFor="stxField25"
+  messageId="stxFieldMessage26"
 >
   <Input
-    id="stxField13"
+    aria-describedby="stxFieldMessage26"
+    id="stxField25"
     selectOnFocus={false}
     type="url"
   />
@@ -372,10 +425,12 @@ exports[`InputField InputField renders with type url 1`] = `
 exports[`InputField InputField renders without any props 1`] = `
 <Field
   className="stx-field--with-input"
-  htmlFor="stxField2"
+  htmlFor="stxField3"
+  messageId="stxFieldMessage4"
 >
   <Input
-    id="stxField2"
+    aria-describedby="stxFieldMessage4"
+    id="stxField3"
     selectOnFocus={false}
     type="text"
   />

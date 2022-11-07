@@ -3,18 +3,20 @@
 exports[`CheckboxField CheckboxField render additional props 1`] = `
 <Field
   className="stx-checkbox-field__field"
+  messageId="stxFieldMessage18"
 >
   <div
     className="stx-checkbox-field__div"
   >
     <Checkbox
+      aria-describedby="stxFieldMessage18"
       className="stx-checkbox-field__checkbox"
       data-additional-prop="additional-prop"
-      id="stxField9"
+      id="stxField17"
     />
     <label
       className="stx-checkbox-field__label"
-      htmlFor="stxField9"
+      htmlFor="stxField17"
     />
   </div>
 </Field>
@@ -23,18 +25,20 @@ exports[`CheckboxField CheckboxField render additional props 1`] = `
 exports[`CheckboxField CheckboxField render disabled when disabled is true 1`] = `
 <Field
   className="stx-checkbox-field__field"
+  messageId="stxFieldMessage16"
 >
   <div
     className="stx-checkbox-field__div"
   >
     <Checkbox
+      aria-describedby="stxFieldMessage16"
       className="stx-checkbox-field__checkbox"
       disabled={true}
-      id="stxField8"
+      id="stxField15"
     />
     <label
       className="stx-checkbox-field__label"
-      htmlFor="stxField8"
+      htmlFor="stxField15"
     />
   </div>
 </Field>
@@ -43,33 +47,14 @@ exports[`CheckboxField CheckboxField render disabled when disabled is true 1`] =
 exports[`CheckboxField CheckboxField renders checked 1`] = `
 <Field
   className="stx-checkbox-field__field"
+  messageId="stxFieldMessage6"
 >
   <div
     className="stx-checkbox-field__div"
   >
     <Checkbox
+      aria-describedby="stxFieldMessage6"
       checked={true}
-      className="stx-checkbox-field__checkbox"
-      id="stxField3"
-    />
-    <label
-      className="stx-checkbox-field__label"
-      htmlFor="stxField3"
-    />
-  </div>
-</Field>
-`;
-
-exports[`CheckboxField CheckboxField renders with a success messageText 1`] = `
-<Field
-  className="stx-checkbox-field__field"
-  messageText="message-text"
-  messageType="success"
->
-  <div
-    className="stx-checkbox-field__div"
-  >
-    <Checkbox
       className="stx-checkbox-field__checkbox"
       id="stxField5"
     />
@@ -81,9 +66,33 @@ exports[`CheckboxField CheckboxField renders with a success messageText 1`] = `
 </Field>
 `;
 
+exports[`CheckboxField CheckboxField renders with a success messageText 1`] = `
+<Field
+  className="stx-checkbox-field__field"
+  messageId="stxFieldMessage10"
+  messageText="message-text"
+  messageType="success"
+>
+  <div
+    className="stx-checkbox-field__div"
+  >
+    <Checkbox
+      aria-describedby="stxFieldMessage10"
+      className="stx-checkbox-field__checkbox"
+      id="stxField9"
+    />
+    <label
+      className="stx-checkbox-field__label"
+      htmlFor="stxField9"
+    />
+  </div>
+</Field>
+`;
+
 exports[`CheckboxField CheckboxField renders with a warning messageText 1`] = `
 <Field
   className="stx-checkbox-field__field"
+  messageId="stxFieldMessage12"
   messageText="message-text"
   messageType="warning"
 >
@@ -91,12 +100,13 @@ exports[`CheckboxField CheckboxField renders with a warning messageText 1`] = `
     className="stx-checkbox-field__div"
   >
     <Checkbox
+      aria-describedby="stxFieldMessage12"
       className="stx-checkbox-field__checkbox"
-      id="stxField6"
+      id="stxField11"
     />
     <label
       className="stx-checkbox-field__label"
-      htmlFor="stxField6"
+      htmlFor="stxField11"
     />
   </div>
 </Field>
@@ -105,6 +115,7 @@ exports[`CheckboxField CheckboxField renders with a warning messageText 1`] = `
 exports[`CheckboxField CheckboxField renders with an alert messageText 1`] = `
 <Field
   className="stx-checkbox-field__field"
+  messageId="stxFieldMessage14"
   messageText="message-text"
   messageType="alert"
 >
@@ -112,12 +123,14 @@ exports[`CheckboxField CheckboxField renders with an alert messageText 1`] = `
     className="stx-checkbox-field__div"
   >
     <Checkbox
+      aria-describedby="stxFieldMessage14"
+      aria-invalid="true"
       className="stx-checkbox-field__checkbox"
-      id="stxField7"
+      id="stxField13"
     />
     <label
       className="stx-checkbox-field__label"
-      htmlFor="stxField7"
+      htmlFor="stxField13"
     />
   </div>
 </Field>
@@ -126,11 +139,13 @@ exports[`CheckboxField CheckboxField renders with an alert messageText 1`] = `
 exports[`CheckboxField CheckboxField renders with basic props 1`] = `
 <Field
   className="stx-checkbox-field__field html-class"
+  messageId="stxFieldMessage2"
 >
   <div
     className="stx-checkbox-field__div"
   >
     <Checkbox
+      aria-describedby="stxFieldMessage2"
       className="stx-checkbox-field__checkbox"
       id="test-id"
       name="name"
@@ -152,17 +167,19 @@ exports[`CheckboxField CheckboxField renders with helpText 1`] = `
 <Field
   className="stx-checkbox-field__field"
   helpText="help-text"
+  messageId="stxFieldMessage8"
 >
   <div
     className="stx-checkbox-field__div"
   >
     <Checkbox
+      aria-describedby="stxFieldMessage8"
       className="stx-checkbox-field__checkbox"
-      id="stxField4"
+      id="stxField7"
     />
     <label
       className="stx-checkbox-field__label"
-      htmlFor="stxField4"
+      htmlFor="stxField7"
     />
   </div>
 </Field>
@@ -171,17 +188,19 @@ exports[`CheckboxField CheckboxField renders with helpText 1`] = `
 exports[`CheckboxField CheckboxField renders without any props 1`] = `
 <Field
   className="stx-checkbox-field__field"
+  messageId="stxFieldMessage4"
 >
   <div
     className="stx-checkbox-field__div"
   >
     <Checkbox
+      aria-describedby="stxFieldMessage4"
       className="stx-checkbox-field__checkbox"
-      id="stxField2"
+      id="stxField3"
     />
     <label
       className="stx-checkbox-field__label"
-      htmlFor="stxField2"
+      htmlFor="stxField3"
     />
   </div>
 </Field>

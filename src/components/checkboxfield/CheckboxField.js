@@ -12,14 +12,17 @@ class CheckboxField extends Component {
   constructor(props) {
     super(props);
     this.forId = `stxField${generateUniqueId()}`;
+    this.messageId = `stxFieldMessage${generateUniqueId()}`;
   }
 
   render() {
-    const { id, className, helpText, messageType, messageText, label, ...remainingProps } = this.props;
+    const { id, className, helpText, messageType, messageText, messageId, label, ...remainingProps } = this.props;
     const classNames = cn([
       'stx-checkbox-field__field',
       className,
     ]);
+
+    const hasValidationError = messageType === 'alert' || messageType === 'error';
 
     return (
       <Field
@@ -27,11 +30,14 @@ class CheckboxField extends Component {
         helpText={helpText}
         messageType={messageType}
         messageText={messageText}
+        messageId={this.messageId}
       >
         <div className='stx-checkbox-field__div'>
           <Checkbox
             id={id || this.forId}
             className='stx-checkbox-field__checkbox'
+            aria-invalid={hasValidationError ? 'true' : undefined}
+            aria-describedby={messageId || this.messageId}
             {...remainingProps}
           />
 
@@ -58,6 +64,8 @@ CheckboxField.propTypes = {
   messageText: PropTypes.string,
   /** The type of message to display */
   messageType: PropTypes.oneOf(['alert', 'warning', 'success', '']),
+  /** The ID of the associated message element (automatically generated if not provided) */
+  messageId: PropTypes.oneOf([PropTypes.string, PropTypes.undefined]),
   /** Whether or not the checkbox is disabled */
   disabled: PropTypes.bool,
 };

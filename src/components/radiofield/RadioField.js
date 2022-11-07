@@ -12,14 +12,17 @@ class RadioField extends Component {
   constructor(props) {
     super(props);
     this.forId = `stxField${generateUniqueId()}`;
+    this.messageId = `stxFieldMessage${generateUniqueId()}`;
   }
 
   render() {
-    const { className, disabled, helpText, id, label, messageType, messageText, value, ...otherProps } = this.props;
+    const { className, disabled, helpText, id, label, messageType, messageText, messageId, value, ...otherProps } = this.props;
     const classNames = cn([
       'stx-field--with-radio-field',
       className,
     ]);
+
+    const hasValidationError = messageType === 'alert' || messageType === 'error';
 
     return (
       <Field
@@ -36,6 +39,8 @@ class RadioField extends Component {
             className='stx-radio-field__radio'
             disabled={disabled}
             value={value}
+            aria-invalid={hasValidationError ? 'true' : undefined}
+            aria-describedby={messageId || this.messageId}
           />
 
           <label htmlFor={id || this.forId} className='stx-radio-field__label'>
@@ -71,6 +76,9 @@ RadioField.propTypes = {
 
   /** The type of message to display */
   messageType: PropTypes.oneOf(['success', 'warning', 'alert', '']),
+
+  /** The ID of the associated message element (automatically generated if not provided) */
+  messageId: PropTypes.oneOf([PropTypes.string, PropTypes.undefined]),
 
   /** The value of the checkbox component */
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
