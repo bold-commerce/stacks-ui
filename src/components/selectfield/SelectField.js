@@ -12,14 +12,17 @@ class SelectField extends Component {
   constructor(props) {
     super(props);
     this.forId = `stxField${generateUniqueId()}`;
+    this.messageId = `stxFieldMessage${generateUniqueId()}`;
   }
 
   render() {
-    const { id, label, className, disabled, readOnly, messageType, messageText, helpText, ariaLive, ...otherProps } = this.props;
+    const { id, label, className, disabled, readOnly, messageType, messageText, messageId, helpText, ariaLive, ...otherProps } = this.props;
     const classNames = cn([
       'stx-field--with-select',
       className,
     ]);
+
+    const hasValidationError = messageType === 'alert' || messageType === 'error';
 
     return (
       <Field
@@ -29,6 +32,7 @@ class SelectField extends Component {
         className={classNames}
         messageType={messageType}
         messageText={messageText}
+        messageId={messageId || this.messageId}
         disabled={disabled}
         readOnly={readOnly}
         ariaLive={ariaLive}
@@ -39,6 +43,8 @@ class SelectField extends Component {
           messageType={messageType}
           disabled={disabled}
           readOnly={readOnly}
+          aria-invalid={hasValidationError ? 'true' : undefined}
+          aria-describedby={messageId || this.messageId}
         />
       </Field>
     );
@@ -67,6 +73,9 @@ SelectField.propTypes = {
 
   /** The type of message to display */
   messageType: PropTypes.oneOf(['alert', 'warning', 'success', '']),
+
+  /** The ID of the associated message element (automatically generated if not provided) */
+  messageId: PropTypes.oneOf([PropTypes.string, PropTypes.undefined]),
 
   /** The aria-live attribute value that will be set on the message if one is given */
   ariaLive: PropTypes.oneOf(['assertive', 'polite']),

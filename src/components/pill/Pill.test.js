@@ -1,3 +1,4 @@
+/* global describe, test, expect, jest */
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
@@ -6,8 +7,8 @@ import Pill from './Pill';
 describe('Pill', () => {
   test('Pill renders with basic props', () => {
     const component = shallow(<Pill
-      className="class-name"
-      label="label"
+      className='class-name'
+      label='label'
     />);
 
     expect(toJson(component)).toMatchSnapshot();
@@ -15,7 +16,7 @@ describe('Pill', () => {
 
   test('Pill renders with a11y props', () => {
     const component = shallow(<Pill
-      aria-label="aria-label"
+      aria-label='aria-label'
     />);
 
     const span = component.find('span.stx-pill');
@@ -39,7 +40,7 @@ describe('Pill', () => {
 
   test('Pill renders with alert status', () => {
     const component = shallow(<Pill
-      status="alert"
+      status='alert'
     />);
 
     const span = component.find('span.stx-pill--with-alert');
@@ -48,7 +49,7 @@ describe('Pill', () => {
 
   test('Pill renders with warning status', () => {
     const component = shallow(<Pill
-      status="warning"
+      status='warning'
     />);
 
     const span = component.find('span.stx-pill--with-warning');
@@ -57,7 +58,7 @@ describe('Pill', () => {
 
   test('Pill renders with success status', () => {
     const component = shallow(<Pill
-      status="success"
+      status='success'
     />);
 
     const span = component.find('span.stx-pill--with-success');
@@ -66,7 +67,7 @@ describe('Pill', () => {
 
   test('Pill renders with info status', () => {
     const component = shallow(<Pill
-      status="info"
+      status='info'
     />);
 
     const span = component.find('span.stx-pill--with-info');

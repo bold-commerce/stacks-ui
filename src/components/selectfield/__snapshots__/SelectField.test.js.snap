@@ -15,11 +15,13 @@ exports[`SelectField SelectField renders with basic props 1`] = `
     ariaLive="assertive"
     className="stx-field--with-select the-class"
     htmlFor="stxField1"
+    messageId="stxFieldMessage2"
   >
     <div
       className="stx-field stx-field--with-select the-class"
     >
       <Select
+        aria-describedby="stxFieldMessage2"
         id="stxField1"
         onBlur={[Function]}
         onChange={[Function]}
@@ -32,6 +34,7 @@ exports[`SelectField SelectField renders with basic props 1`] = `
           className="stx-select stx-select--with-placeholder"
         >
           <select
+            aria-describedby="stxFieldMessage2"
             className="stx-select__select-element"
             id="stxField1"
             onBlur={[Function]}
@@ -63,6 +66,7 @@ exports[`SelectField SelectField renders with basic props 1`] = `
             </option>
           </select>
           <span
+            aria-hidden={true}
             className="stx-select__icon"
           >
             <svg

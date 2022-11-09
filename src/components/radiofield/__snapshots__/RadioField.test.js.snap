@@ -9,13 +9,14 @@ exports[`RadioField RadioField render disabled when disabled is true 1`] = `
     className="stx-radio-field"
   >
     <Radio
+      aria-describedby="stxFieldMessage4"
       className="stx-radio-field__radio"
       disabled={true}
-      id="stxField2"
+      id="stxField3"
     />
     <label
       className="stx-radio-field__label"
-      htmlFor="stxField2"
+      htmlFor="stxField3"
     />
   </div>
 </Field>
@@ -48,6 +49,8 @@ exports[`RadioField RadioField renders with basic props 1`] = `
         className="stx-radio-field"
       >
         <Radio
+          aria-describedby="stxFieldMessage2"
+          aria-invalid="true"
           checked={true}
           className="stx-radio-field__radio"
           data-additional-prop="additional-prop"
@@ -64,7 +67,9 @@ exports[`RadioField RadioField renders with basic props 1`] = `
           >
             <input
               aria-checked={true}
+              aria-describedby="stxFieldMessage2"
               aria-disabled={true}
+              aria-invalid="true"
               checked={true}
               className="stx-radio__input"
               data-additional-prop="additional-prop"

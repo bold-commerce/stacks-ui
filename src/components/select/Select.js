@@ -82,7 +82,7 @@ class Select extends Component {
           {children}
 
         </select>
-        <span className='stx-select__icon'>
+        <span className='stx-select__icon' aria-hidden>
           <svg
             className='stx-select-icon__icon'
             viewBox='0 0 24 24'

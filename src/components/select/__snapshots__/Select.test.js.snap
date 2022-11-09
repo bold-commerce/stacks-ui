@@ -44,6 +44,7 @@ exports[`Select Select renders with basic props 1`] = `
       </option>
     </select>
     <span
+      aria-hidden={true}
       className="stx-select__icon"
     >
       <svg
@@ -119,6 +120,7 @@ exports[`Select Select renders with disabled 1`] = `
       </option>
     </select>
     <span
+      aria-hidden={true}
       className="stx-select__icon"
     >
       <svg
@@ -193,6 +195,7 @@ exports[`Select Select renders with loading 1`] = `
       </option>
     </select>
     <span
+      aria-hidden={true}
       className="stx-select__icon"
     >
       <svg
@@ -266,6 +269,7 @@ exports[`Select Select renders with messageType = alert 1`] = `
       </option>
     </select>
     <span
+      aria-hidden={true}
       className="stx-select__icon"
     >
       <svg
@@ -338,6 +342,7 @@ exports[`Select Select renders with options array 1`] = `
       </option>
     </select>
     <span
+      aria-hidden={true}
       className="stx-select__icon"
     >
       <svg
@@ -413,6 +418,7 @@ exports[`Select Select renders with readOnly 1`] = `
       </option>
     </select>
     <span
+      aria-hidden={true}
       className="stx-select__icon"
     >
       <svg
