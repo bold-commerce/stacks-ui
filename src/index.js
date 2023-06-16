@@ -20,6 +20,7 @@ export { default as LoadingSpinner } from './components/loadingspinner/LoadingSp
 export { default as ProgressBar } from './components/progressbar/ProgressBar';
 export { default as Message } from './components/message/Message';
 export { default as Pill } from './components/pill/Pill';
+export { default as Tooltip } from './components/tooltip/Tooltip';
 
 // Product
 export { default as Details } from './components/details/Details';

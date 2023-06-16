@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip Tooltip renders with available and extra props 1`] = `
+<div
+  className="custom-class-name stx-tooltip-wrapper"
+  tabIndex={0}
+>
+  <h3>
+    30 Orders
+  </h3>
+  <div
+    className="stx-tooltip"
+  >
+    Count of created orders in the last 30 days.
+  </div>
+</div>
+`;
